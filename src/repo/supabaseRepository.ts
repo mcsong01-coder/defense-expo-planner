@@ -5,7 +5,11 @@ import type { TripRepository } from './index';
 /** Supabase storage; row-level security limits every query to the signed-in user. */
 export class SupabaseTripRepository implements TripRepository {
   readonly kind = 'supabase' as const;
-  constructor(private readonly sb: SupabaseClient) {}
+  private sb: SupabaseClient;
+
+  constructor(sb: SupabaseClient) {
+    this.sb = sb;
+  }
 
   async list() {
     const { data, error } = await this.sb.from('trip_plans').select('data').order('updated_at', { ascending: false });
