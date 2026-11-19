@@ -44,15 +44,24 @@ export default function AuthControls({ client, user }: { client: SupabaseClient 
   return (
     <div className="auth-controls">
       {!expanded ? (
-        <button className="btn sm" onClick={() => setExpanded(true)}>로그인·동기화</button>
+        <button className="btn sm" onClick={() => setExpanded(true)}>선택: 로그인·동기화</button>
       ) : (
         <form className="auth-form" onSubmit={signIn}>
           <label className="sr-only" htmlFor="auth-email">이메일 주소</label>
-          <input id="auth-email" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="이메일 주소" />
+          <input
+            id="auth-email"
+            type="email"
+            autoComplete="email"
+            required
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
+            placeholder="이메일 주소"
+          />
           <button className="btn sm primary" disabled={busy}>{busy ? '전송 중…' : '로그인 링크 받기'}</button>
           <button className="btn sm" type="button" onClick={() => { setExpanded(false); setSent(false); setError(''); }}>닫기</button>
         </form>
       )}
+      <span style={{ flexBasis: '100%', textAlign: 'right', fontSize: 11, color: 'var(--muted)' }}>로그인 없이 바로 사용 가능 · 출장안은 이 브라우저에 저장됩니다. 기기 간 동기화만 로그인이 필요합니다.</span>
       {sent && <span className="auth-message" role="status">로그인 링크를 보냈습니다. 이메일에서 링크를 열어주세요.</span>}
       {error && <span className="auth-message error" role="alert">로그인 링크를 보내지 못했습니다: {error}</span>}
     </div>
