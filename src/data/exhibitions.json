@@ -1,0 +1,3873 @@
+{
+ "TAGS": {
+  "cuas": "드론·대드론",
+  "mumt": "유무인 복합·CCA",
+  "ai": "AI·자율·C4ISR",
+  "iamd": "통합방공·미사일방어",
+  "fires": "장거리 정밀화력",
+  "uxv": "해양 무인체계",
+  "ew": "전자전·스펙트럼",
+  "space": "우주·위성",
+  "ammo": "탄약·생산능력",
+  "land": "지상기동·로봇",
+  "sim": "훈련·시뮬레이션",
+  "dew": "레이저·지향성에너지",
+  "local": "현지화·절충교역",
+  "air": "차세대 항공기·엔진",
+  "cyber": "사이버·국토안보",
+  "ship": "함정·조선·MRO",
+  "hyper": "극초음속 대응",
+  "small": "소화기·탄약·광학",
+  "sof": "특수작전 장비",
+  "police": "경찰·법집행 장비",
+  "soldier": "개인전투체계·방호",
+  "border": "국경·대테러 감시"
+ },
+ "DOMAINS": [
+  "종합(3군)",
+  "항공우주",
+  "해양",
+  "지상",
+  "총기·사격",
+  "특수작전",
+  "보안·경찰",
+  "훈련·시뮬레이션"
+ ],
+ "REGIONS": [
+  "유럽",
+  "중동",
+  "아시아·태평양",
+  "미주",
+  "아프리카"
+ ],
+ "STATUS": {
+  "ok": "확정",
+  "tent": "예정(재확인)",
+  "est": "추정"
+ },
+ "EVENTS": [
+  {
+   "id": "iitsec26",
+   "name": "I/ITSEC 2026",
+   "ko": "미국 교육훈련·시뮬레이션 컨퍼런스",
+   "start": "2026-11-30",
+   "end": "2026-12-04",
+   "status": "ok",
+   "city": "올랜도",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Orange County Convention Center",
+   "cycle": "매년",
+   "domains": [
+    "훈련·시뮬레이션"
+   ],
+   "scale": "참관 1만 5천여 명, 전시업체 400여 곳",
+   "url": "https://www.iitsec.org",
+   "firms": [
+    "CAE",
+    "Lockheed Martin",
+    "Boeing",
+    "BAE Systems",
+    "Collins Aerospace",
+    "Bohemia Interactive Simulations",
+    "L3Harris"
+   ],
+   "kr": [
+    "국내 대형사 참가는 제한적, 시뮬레이터 중소기업 위주"
+   ],
+   "trends": [
+    {
+     "t": "sim",
+     "d": "합성훈련환경(STE)과 클라우드 기반 대규모 분산 시뮬레이션이 주제의 중심에 설 전망."
+    },
+    {
+     "t": "ai",
+     "d": "생성형 AI로 시나리오·적 행동을 자동 생성하는 교관 보조, AI 성과 분석 도구 시연 확대."
+    },
+    {
+     "t": "mumt",
+     "d": "유무인 협업 전술을 사전에 검증하는 디지털트윈·LVC(실기동·가상·구성) 연동."
+    },
+    {
+     "t": "cuas",
+     "d": "드론 위협 대응 훈련용 시뮬레이터와 표적 드론 수요 증가."
+    }
+   ],
+   "intel": [
+    "미 육군·해군·공군 훈련체계 획득 로드맵 발표 세션",
+    "LVC·합성환경 표준(HLA/DIS 후속) 논의 동향",
+    "게임엔진·XR 하드웨어의 군 인증 사례와 단가",
+    "교육훈련 시뮬레이터 국제공동개발·부품 공급 파트너 탐색"
+   ]
+  },
+  {
+   "id": "intersec27",
+   "name": "Intersec Global 2027",
+   "ko": "UAE 국제 보안·안전·대테러 전시회",
+   "start": "2027-01-12",
+   "end": "2027-01-14",
+   "status": "ok",
+   "city": "두바이",
+   "country": "UAE",
+   "region": "중동",
+   "venue": "Dubai World Trade Centre",
+   "cycle": "매년",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "참가 1,100여 개사·참관 4만여 명(2026년 기준)",
+   "url": "https://intersecglobal.ae.messefrankfurt.com",
+   "firms": [
+    "Hikvision 계열 경쟁사(Axis, Bosch)",
+    "Motorola Solutions",
+    "Smiths Detection",
+    "Rapiscan",
+    "EDGE Group",
+    "Hanwha Vision"
+   ],
+   "kr": [
+    "한화비전 등 영상보안 기업 참가 이력"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "경찰·출입국·민방위 통합 지휘통제와 바디캠·영상분석 플랫폼 경쟁."
+    },
+    {
+     "t": "cuas",
+     "d": "공항·핵심기반시설 대상 대드론 탐지·무력화 체계 시연 확대."
+    },
+    {
+     "t": "cyber",
+     "d": "OT·물리보안 통합 관제, 스마트시티 보안 AI가 주요 화두."
+    },
+    {
+     "t": "border",
+     "d": "생체인식 출입국·검색 장비(CT형 X-ray) 도입 사례 공개."
+    }
+   ],
+   "intel": [
+    "UAE 내무부·두바이 경찰 조달 수요와 현지 파트너 요건",
+    "2027년 새 '5개 분야' 전시 구조 중 치안·대테러 섹션 구성",
+    "대드론·검색장비 성능 비교와 가격대"
+   ],
+   "note": "2027년부터 'Intersec Global'로 명칭 변경. 일부 자료의 1/11~13 표기와 다르니 공식 홈페이지 기준으로 확인."
+  },
+  {
+   "id": "shot27",
+   "name": "SHOT Show 2027",
+   "ko": "미국 사격·수렵·법집행 장비 전시회",
+   "start": "2027-01-19",
+   "end": "2027-01-22",
+   "status": "ok",
+   "city": "라스베이거스",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Venetian Expo + Caesars Forum",
+   "cycle": "매년",
+   "domains": [
+    "총기·사격",
+    "보안·경찰"
+   ],
+   "scale": "전시 2,700여 부스·참관 5만여 명",
+   "url": "https://shotshow.org",
+   "firms": [
+    "SIG Sauer",
+    "Glock",
+    "Smith & Wesson",
+    "Ruger",
+    "Beretta",
+    "Daniel Defense",
+    "Vortex Optics",
+    "Streamlight",
+    "Axon"
+   ],
+   "kr": [
+    "국내 탄약·광학·총기 부품 기업 일부 출품 이력"
+   ],
+   "trends": [
+    {
+     "t": "small",
+     "d": "권총 모듈화·광학조준경(RDS) 기본 장착, 6.8mm 등 신형 탄종 확산."
+    },
+    {
+     "t": "police",
+     "d": "법집행 전용관(Law Enforcement) 중심의 비살상 무기·바디캠 연동 장비."
+    },
+    {
+     "t": "soldier",
+     "d": "소음기·야간투시·열상 클립온 등 사수 장비 경량화."
+    },
+    {
+     "t": "ammo",
+     "d": "민수·관수 탄약 공급망과 생산능력 확충 논의."
+    }
+   ],
+   "intel": [
+    "미국 법집행기관 제식 권총·광학 교체 동향",
+    "소음기·열상장비 수출통제(ITAR·EAR) 변화",
+    "국내 소화기·광학 부품의 미국 OEM 공급 기회"
+   ],
+   "note": "업계 전용(Trade-only) 행사로 참관 자격 증빙 필요. 정부 관계자는 법집행·군 소속 증빙으로 등록.",
+   "firmDetails": [
+    {
+     "name": "Glock",
+     "past": "SHOT Show 2026: Gen6(G17·G19·G45) 전면 재설계 공개 — 최대 화제",
+     "expect": "경찰 제식 교체·홀스터 호환"
+    },
+    {
+     "name": "SIG Sauer",
+     "past": "SHOT Show 2026: P211 GT4·GT5, 3D 프린팅 티타늄 소음기 Hexium; M7(6.8mm) 실적",
+     "expect": "P320 논란 대응, 6.8mm 확산"
+    },
+    {
+     "name": "Heckler & Koch",
+     "past": "SHOT Show 2026: 레인지데이 화제작 CC9 권총",
+     "expect": "미국 법집행 시장"
+    },
+    {
+     "name": "Beretta",
+     "past": "SHOT Show 2026: 창사 500주년·92계열 50주년 한정판, 경찰용 M92 개량",
+     "expect": "경찰 수요"
+    },
+    {
+     "name": "Staccato·Nightstick 등",
+     "past": "SHOT Show 2026: 경찰 감시팀 공동개발 HD C4X, 경찰 전용 무기등 TCM-10-T",
+     "expect": "법집행 장비 세분화"
+    }
+   ]
+  },
+  {
+   "id": "idex27",
+   "name": "IDEX · NAVDEX 2027",
+   "ko": "아부다비 국제방산전시회",
+   "start": "2027-01-25",
+   "end": "2027-01-29",
+   "status": "ok",
+   "city": "아부다비",
+   "country": "UAE",
+   "region": "중동",
+   "venue": "ADNEC Centre Abu Dhabi",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "종합(3군)",
+    "해양",
+    "특수작전"
+   ],
+   "scale": "직전 회차 전시업체 1,500여 곳",
+   "url": "https://idexuae.ae",
+   "firms": [
+    "EDGE Group",
+    "Lockheed Martin",
+    "RTX",
+    "Rheinmetall",
+    "Leonardo",
+    "MBDA",
+    "Thales",
+    "Saab",
+    "General Atomics"
+   ],
+   "kr": [
+    "한화에어로스페이스",
+    "현대로템",
+    "LIG넥스원",
+    "KAI"
+   ],
+   "trends": [
+    {
+     "t": "local",
+     "d": "EDGE·Tawazun 주도의 현지 합작·생산 이전 조건 발표가 계약 성패를 좌우할 전망."
+    },
+    {
+     "t": "cuas",
+     "d": "걸프 지역 드론·순항미사일 위협에 대응한 다층 대드론·방공 체계."
+    },
+    {
+     "t": "iamd",
+     "d": "천궁-II 등 중거리 방공의 추가 도입 논의와 레이더 통합."
+    },
+    {
+     "t": "uxv",
+     "d": "NAVDEX의 무인수상정·자율 순찰정 전시 확대."
+    },
+    {
+     "t": "ai",
+     "d": "전장관리·감시정찰에 AI를 접목한 C4ISR 패키지."
+    }
+   ],
+   "intel": [
+    "UAE 국방부·Tawazun 현장 계약 발표(일별 공시)",
+    "EDGE와의 공동개발·현지생산 MOU 조건",
+    "걸프 국가 방공 사업 요구사항",
+    "직전 회차 대비 참가 국가관 변화"
+   ],
+   "note": "2025년 첫 발표는 1/21–25였으나 이후 주최 측 안내 기준 1/25–29로 바뀌었습니다.",
+   "firmDetails": [
+    {
+     "name": "한화에어로스페이스·한화시스템",
+     "past": "IDEX 2025: K9 실물, L-SAM 해외 첫 공개, M-SAM·장사정포요격체계(LAMD), 0.25m급 소형 SAR 위성 중동 첫 공개",
+     "expect": "EDGE와 무인 방공·현지 생산 협력 진척",
+     "kr": true
+    },
+    {
+     "name": "현대로템",
+     "past": "IDEX 2025: K2 전차 실물(3인 승무·자동장전), 중동형 K2ME 검토 언급",
+     "expect": "고온 환경 개량형 구체화",
+     "kr": true
+    },
+    {
+     "name": "KAI",
+     "past": "IDEX 2025: KF-21·FA-50·LAH·MAH(상륙공격헬기), 공중발사 무인기 유무인복합 개념",
+     "expect": "UAE 대상 KF-21·수리온 파생형 마케팅",
+     "kr": true
+    },
+    {
+     "name": "현대위아",
+     "past": "IDEX 2025 첫 참가: 105mm 경량 자주포·차량탑재 81mm 박격포 목업",
+     "expect": "경량 화력 체계 시제",
+     "kr": true
+    },
+    {
+     "name": "EDGE Group",
+     "past": "IDEX 2025: 최대 규모 전시관, 전 영역 신제품 공개",
+     "expect": "현지화·합작(Tawazun) 계약 발표"
+    }
+   ]
+  },
+  {
+   "id": "aeroindia27",
+   "name": "Aero India 2027",
+   "ko": "인도 항공우주·방산 전시회",
+   "start": "2027-02-08",
+   "end": "2027-02-12",
+   "status": "ok",
+   "city": "벵갈루루",
+   "country": "인도",
+   "region": "아시아·태평양",
+   "venue": "옐라항카 공군기지",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "항공우주",
+    "종합(3군)"
+   ],
+   "scale": "직전 회차 전시업체 약 900곳(해외 150곳)",
+   "url": "https://www.aeroindia.gov.in",
+   "firms": [
+    "HAL",
+    "DRDO",
+    "BEL",
+    "Lockheed Martin",
+    "Boeing",
+    "Dassault Aviation",
+    "Safran",
+    "Saab",
+    "GE Aerospace"
+   ],
+   "kr": [
+    "KAI",
+    "한화에어로스페이스"
+   ],
+   "trends": [
+    {
+     "t": "local",
+     "d": "자립 인도(Aatmanirbhar Bharat) 기조로 기술이전·현지생산 비율이 수주의 전제 조건."
+    },
+    {
+     "t": "air",
+     "d": "다목적 전투기(MRFA) 경쟁, AMCA·Tejas Mk2 엔진 공동개발 협상 진척."
+    },
+    {
+     "t": "cuas",
+     "d": "국경 분쟁 경험을 반영한 드론·배회형 탄약 대량 조달."
+    },
+    {
+     "t": "space",
+     "d": "민간 우주 스타트업의 군 위성·발사 서비스 진입."
+    }
+   ],
+   "intel": [
+    "인도 국방부 획득절차(DAP) 개정 사항",
+    "MRFA·엔진 공동개발 등 대형 사업 일정",
+    "현지 파트너(L&T, Tata 등) 협력 조건",
+    "K9 바즈라 후속 협력 등 한-인 방산 동향"
+   ],
+   "firmDetails": [
+    {
+     "name": "HAL",
+     "past": "에어로 인디아 2025: AMCA 실물 크기 모형, CATS·TEDBF, 테자스",
+     "expect": "AMCA 일정, 테자스 납기"
+    },
+    {
+     "name": "Lockheed Martin",
+     "past": "에어로 인디아 2025: F-35 두 번째 참가(정적·비행)",
+     "expect": "인도 판매 논의"
+    },
+    {
+     "name": "Sukhoi(UAC)",
+     "past": "에어로 인디아 2025: Su-57 인도 첫 참가, Su-57E 협력 제안",
+     "expect": "인도 공동생산 제안"
+    },
+    {
+     "name": "L&T",
+     "past": "에어로 인디아 2025: 라파엘과 트로피 APS 공동 제안",
+     "expect": "인도 현지 생산"
+    }
+   ]
+  },
+  {
+   "id": "avalon27",
+   "name": "Avalon 2027",
+   "ko": "호주 국제 에어쇼",
+   "start": "2027-02-23",
+   "end": "2027-02-28",
+   "status": "ok",
+   "city": "질롱(멜버른 인근)",
+   "country": "호주",
+   "region": "아시아·태평양",
+   "venue": "Avalon Airport",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "항공우주"
+   ],
+   "scale": "직전 회차 전시업체 902곳, 공식 대표단 291개",
+   "url": "https://www.airshow.com.au",
+   "firms": [
+    "Boeing",
+    "Lockheed Martin",
+    "Northrop Grumman",
+    "BAE Systems Australia",
+    "Airbus",
+    "Raytheon Australia"
+   ],
+   "kr": [
+    "한화(호주 질롱 H-ACE)",
+    "KAI"
+   ],
+   "trends": [
+    {
+     "t": "mumt",
+     "d": "MQ-28 Ghost Bat 등 협동전투기(CCA) 실증 성과와 수출형 논의."
+    },
+    {
+     "t": "local",
+     "d": "호주 방산 주권역량(Sovereign capability) 우선 정책과 현지 공급망 참여 조건."
+    },
+    {
+     "t": "space",
+     "d": "우주 감시·저궤도 통신 사업."
+    },
+    {
+     "t": "ammo",
+     "d": "유도무기·폭발물 사업(GWEO)의 현지 생산 확대."
+    }
+   ],
+   "intel": [
+    "호주 국방부 통합투자계획(IIP) 우선순위 업데이트",
+    "AUKUS 2축(첨단기술) 참여 가능 분야",
+    "질롱 한화 공장 연계 공급망 기회",
+    "무역일(23–25일) 비즈니스 매칭 프로그램"
+   ],
+   "firmDetails": [
+    {
+     "name": "Anduril",
+     "past": "아발론 2025: Fury CCA 미국 밖 첫 전시, 호주 고체로켓모터 공장 계획",
+     "expect": "호주 CCA 경쟁"
+    },
+    {
+     "name": "Boeing Defence Australia",
+     "past": "아발론 2025: MQ-28 고스트배트(시험 플랫폼 재정의), 미사일 발사 시험 계획",
+     "expect": "고스트배트 후속형"
+    },
+    {
+     "name": "한화",
+     "past": "아발론 2025: 차세대 방산 기술 전시(레드백·헌츠맨 등)",
+     "expect": "질롱 현지 공장 가동",
+     "kr": true
+    },
+    {
+     "name": "DroneShield",
+     "past": "아발론 2025: 대드론 체계 업그레이드 공개",
+     "expect": "대드론 수출"
+    },
+    {
+     "name": "General Atomics",
+     "past": "아발론 2025: 호주 요구 맞춤 전투 무인기 계획",
+     "expect": "CCA 호주 판매"
+    }
+   ]
+  },
+  {
+   "id": "enforcetac27",
+   "name": "Enforce Tac 2027",
+   "ko": "독일 경찰·군 특수장비 전시회",
+   "start": "2027-03-01",
+   "end": "2027-03-03",
+   "status": "ok",
+   "city": "뉘른베르크",
+   "country": "독일",
+   "region": "유럽",
+   "venue": "Exhibition Centre Nuremberg",
+   "cycle": "매년",
+   "domains": [
+    "보안·경찰",
+    "특수작전",
+    "총기·사격"
+   ],
+   "scale": "8개 홀·약 7만 3천㎡로 확대 예정",
+   "url": "https://www.enforcetac.com",
+   "firms": [
+    "Heckler & Koch",
+    "Rheinmetall",
+    "Haenel",
+    "SIG Sauer",
+    "Hensoldt",
+    "Rohde & Schwarz",
+    "Helikon-Tex",
+    "Mehler Protection"
+   ],
+   "kr": [
+    "국내 방탄·광학 기업 소수 참가"
+   ],
+   "trends": [
+    {
+     "t": "sof",
+     "d": "경찰 특공대·군 특수부대 공용 소화기와 사격통제 광학."
+    },
+    {
+     "t": "soldier",
+     "d": "방탄복·헬멧 경량화와 개인 통신·전원 통합."
+    },
+    {
+     "t": "cuas",
+     "d": "치안용 휴대형 대드론 재머·탐지기 시연."
+    },
+    {
+     "t": "police",
+     "d": "유럽 내 치안·국방 장비 공용화(Zeitenwende) 수요."
+    }
+   ],
+   "intel": [
+    "독일 연방경찰·주 경찰 장비 조달 계획",
+    "유럽 특수부대 표준 소화기 교체 동향",
+    "방탄 소재·인증(VPAM, NIJ) 비교"
+   ],
+   "note": "정부기관·관련 업계만 출입 가능한 제한 행사. 원래 계획된 요일 변경(화~목)은 취소되고 3월 1~3일로 확정.",
+   "firmDetails": [
+    {
+     "name": "Rheinmetall",
+     "past": "Enforce Tac 2026: Gladius 2.0 기반 경보병·영토방위 연결 개념, 신형 헬멧·방탄복, 견착식 40mm SSW40, 대드론 RCWS320C-UAS, 배회탄 FV-014, Fuchs JAGM 독일 첫 전시",
+     "expect": "경찰·군 공용 장비"
+    },
+    {
+     "name": "Diehl Defence",
+     "past": "Enforce Tac 2026: 대드론 GARMR(구 KDV) 공개",
+     "expect": "독일 대드론 조달"
+    },
+    {
+     "name": "Quantum Systems",
+     "past": "Enforce Tac 2026: 첫 무인지상차량(UGV) 공개",
+     "expect": "드론 업체의 지상 확장"
+    },
+    {
+     "name": "WB Group·Savox·Source",
+     "past": "Enforce Tac 2026: 무인체계, 전술 헤드셋 Noise-COM 200×2, 여성용 방탄·초경량 헬멧",
+     "expect": "개인 장비 세분화"
+    }
+   ]
+  },
+  {
+   "id": "iwa27",
+   "name": "IWA OutdoorClassics 2027",
+   "ko": "독일 수렵·사격·민수 총기 전시회",
+   "start": "2027-03-04",
+   "end": "2027-03-07",
+   "status": "ok",
+   "city": "뉘른베르크",
+   "country": "독일",
+   "region": "유럽",
+   "venue": "Exhibition Centre Nuremberg",
+   "cycle": "매년",
+   "domains": [
+    "총기·사격"
+   ],
+   "scale": "참관 2만 5천여 명(2026년 기준)",
+   "url": "https://www.iwa.info",
+   "firms": [
+    "Beretta",
+    "Blaser",
+    "Sauer",
+    "Steyr Arms",
+    "Zeiss",
+    "Swarovski Optik",
+    "Leupold",
+    "RUAG Ammotec"
+   ],
+   "kr": [
+    "국내 광학·탄약 부품 기업 소수 참가"
+   ],
+   "trends": [
+    {
+     "t": "small",
+     "d": "사냥·사격용 열상·디지털 조준경, 탄도계산 연동 광학 확산."
+    },
+    {
+     "t": "ammo",
+     "d": "무연(無鉛) 탄약 등 환경규제 대응 탄약."
+    },
+    {
+     "t": "soldier",
+     "d": "아웃도어 피복·장비 기술의 군·경 전용."
+    }
+   ],
+   "intel": [
+    "EU 총기·탄약 규제 변화(납 사용 제한 등)",
+    "광학·탄약 부품 유럽 공급망",
+    "Enforce Tac과 연계한 일정 구성"
+   ],
+   "note": "4월 이전 계획은 철회되어 2027년도 3월 4~7일로 유지. Enforce Tac 직후 개최되어 묶어서 참관 가능."
+  },
+  {
+   "id": "milipolindia27",
+   "name": "Milipol India 2027",
+   "ko": "인도 국토안보·치안 전시회",
+   "start": "2027-03-11",
+   "end": "2027-03-13",
+   "status": "tent",
+   "city": "뉴델리",
+   "country": "인도",
+   "region": "아시아·태평양",
+   "venue": "뉴델리(장소 재확인 필요)",
+   "cycle": "격년(홀수년)",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "참가 180여 개사",
+   "url": "https://milipolindia.com",
+   "firms": [
+    "Bharat Electronics",
+    "Tata Advanced Systems",
+    "Thales",
+    "Idemia",
+    "Cellebrite"
+   ],
+   "kr": [
+    "참가 이력 제한적"
+   ],
+   "trends": [
+    {
+     "t": "border",
+     "d": "국경 감시 센서·드론, 해안 감시 체계."
+    },
+    {
+     "t": "police",
+     "d": "주(州) 경찰 현대화 사업과 디지털 포렌식 장비."
+    },
+    {
+     "t": "cuas",
+     "d": "도심·행사장 대드론 수요."
+    }
+   ],
+   "intel": [
+    "인도 내무부 경찰현대화(MPF) 예산 배분",
+    "Make in India 요건과 현지 합작 조건"
+   ],
+   "note": "공식 자료 간 일정이 엇갈림(3/11~13, 3/16~18, 4월설). 출장 계획 전 milipolindia.com에서 재확인."
+  },
+  {
+   "id": "secpol27",
+   "name": "Security & Policing 2027",
+   "ko": "영국 내무부 주관 치안·안보 전시회",
+   "start": "2027-03-16",
+   "end": "2027-03-18",
+   "status": "ok",
+   "city": "판버러",
+   "country": "영국",
+   "region": "유럽",
+   "venue": "Farnborough International Exhibition & Conference Centre",
+   "cycle": "매년",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "정부 승인 인원만 입장",
+   "url": "https://www.securityandpolicing.co.uk",
+   "firms": [
+    "BAE Systems Digital Intelligence",
+    "Smiths Detection",
+    "Motorola Solutions",
+    "Chemring",
+    "QinetiQ",
+    "MSAB"
+   ],
+   "kr": [
+    "영국 정부 초청 대표단 형태 참관 사례"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "대테러·국경·교정 분야 정부 수요 브리핑."
+    },
+    {
+     "t": "cyber",
+     "d": "디지털 포렌식, 법집행 데이터 분석."
+    },
+    {
+     "t": "cuas",
+     "d": "교정시설·행사장 드론 침투 대응."
+    },
+    {
+     "t": "border",
+     "d": "공항·항만 검색 기술과 생체인식."
+    }
+   ],
+   "intel": [
+    "영국 내무부(JSaRC) 수요 과제와 공동연구 기회",
+    "해외 대표단(DBT) 프로그램 신청 요건"
+   ],
+   "note": "일반 입장 불가. 내무부 승인 필요 — 주영 대사관·무관부 경유 사전 등록 권장."
+  },
+  {
+   "id": "sas27",
+   "name": "Sea-Air-Space 2027",
+   "ko": "미 해군연맹 해양 전시회",
+   "start": "2027-04-04",
+   "end": "2027-04-07",
+   "status": "ok",
+   "city": "내셔널하버(워싱턴 D.C. 인근)",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Gaylord National Resort & Convention Center",
+   "cycle": "매년",
+   "domains": [
+    "해양"
+   ],
+   "scale": "참관 1만 5천–1만 8천 명",
+   "url": "https://seaairspace.org",
+   "firms": [
+    "General Dynamics",
+    "HII",
+    "Lockheed Martin",
+    "Northrop Grumman",
+    "RTX",
+    "Austal USA",
+    "Saronic",
+    "Anduril"
+   ],
+   "kr": [
+    "HD현대중공업",
+    "한화오션(필리조선소)"
+   ],
+   "trends": [
+    {
+     "t": "ship",
+     "d": "미 해군 함정 건조·MRO 역량 부족에 대응한 동맹국 조선소 협력 논의가 이어질 전망."
+    },
+    {
+     "t": "uxv",
+     "d": "중대형 무인수상정(MUSV)·소형 자율 수상정 대량 배치 구상과 생산 파트너 모집."
+    },
+    {
+     "t": "iamd",
+     "d": "함정 방공 강화, SM 계열 미사일 증산과 저비용 요격 수단."
+    },
+    {
+     "t": "dew",
+     "d": "함정 탑재 레이저·고출력 마이크로파의 실전 배치 일정."
+    }
+   ],
+   "intel": [
+    "해군·해병대·해안경비대 수뇌부의 조선·MRO 수요 발표",
+    "미 해군 함정 MRO 해외 조선소 참여 조건",
+    "무인정 대량 조달 사업 일정",
+    "해군 연구청(ONR) 기술 공모 분야"
+   ],
+   "firmDetails": [
+    {
+     "name": "한화(오션·에어로·시스템)",
+     "past": "Sea-Air-Space 2026: 한국 업체 중 유일 단독 대형 부스, 노스롭그루먼과 고체 1단 로켓 공동개발 합의",
+     "expect": "미 해군 MRO·함정 건조",
+     "kr": true
+    },
+    {
+     "name": "HD현대중공업·LIG D&A",
+     "past": "Sea-Air-Space 2026: 공동 부스 운영",
+     "expect": "미 함정 협력",
+     "kr": true
+    }
+   ]
+  },
+  {
+   "id": "laad27",
+   "name": "LAAD Defence & Security 2027",
+   "ko": "중남미 방산·보안 전시회",
+   "start": "2027-04-13",
+   "end": "2027-04-16",
+   "status": "ok",
+   "city": "리우데자네이루",
+   "country": "브라질",
+   "region": "미주",
+   "venue": "Riocentro",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "종합(3군)",
+    "보안·경찰"
+   ],
+   "scale": "직전 회차 44개국 400여 곳",
+   "url": "https://www.laadexpo.com.br",
+   "firms": [
+    "Embraer",
+    "Avibras",
+    "Taurus",
+    "Iveco Defence Vehicles",
+    "Rheinmetall",
+    "Thales",
+    "Saab",
+    "Leonardo"
+   ],
+   "kr": [
+    "KAI",
+    "한화(일부 회차)"
+   ],
+   "trends": [
+    {
+     "t": "local",
+     "d": "브라질 국방전략의 현지 생산·오프셋 요구."
+    },
+    {
+     "t": "cyber",
+     "d": "치안·국경 감시용 보안 솔루션(LAAD Security 병행)."
+    },
+    {
+     "t": "land",
+     "d": "차륜형 장갑차·자주포 현대화 사업."
+    },
+    {
+     "t": "air",
+     "d": "훈련기·경공격기 교체 수요(중남미 공군)."
+    }
+   ],
+   "intel": [
+    "브라질 육·해·공군 현대화 사업 일정",
+    "중남미 각국 대표단 구매 의향",
+    "현지 합작 파트너 후보",
+    "공공치안 장비 조달 동향"
+   ],
+   "note": "같은 기간·장소에서 LAAD Security & Milipol Brazil 동시 개최."
+  },
+  {
+   "id": "mdm27",
+   "name": "Modern Day Marine 2027",
+   "ko": "미 해병대 장비·기술 전시회",
+   "start": "2027-04-13",
+   "end": "2027-04-15",
+   "status": "ok",
+   "city": "워싱턴 D.C.",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Walter E. Washington Convention Center",
+   "cycle": "매년",
+   "domains": [
+    "지상",
+    "특수작전"
+   ],
+   "scale": "전시 400여 개사",
+   "url": "https://marinemilitaryexpos.com",
+   "firms": [
+    "General Atomics",
+    "AeroVironment",
+    "Oshkosh Defense",
+    "BAE Systems",
+    "Textron",
+    "Anduril"
+   ],
+   "kr": [
+    "참가 이력 제한적"
+   ],
+   "trends": [
+    {
+     "t": "cuas",
+     "d": "원정작전용 경량 대드론·배회형 탄약."
+    },
+    {
+     "t": "fires",
+     "d": "해병 연안연대(MLR)용 지대함 장거리 화력."
+    },
+    {
+     "t": "uxv",
+     "d": "상륙·연안 작전용 무인수상정."
+    }
+   ],
+   "intel": [
+    "미 해병대 Force Design 후속 획득 우선순위",
+    "한국 해병대 장비 소요와의 접점"
+   ],
+   "note": "미군·외국군 무관 등 자격자만 등록 가능. 외국 공무원은 주미 무관부를 통해 확인."
+  },
+  {
+   "id": "gpecdigital27",
+   "name": "GPEC digital 2027",
+   "ko": "독일 경찰 디지털·전자장비 전시회",
+   "start": "2027-04-14",
+   "end": "2027-04-15",
+   "status": "ok",
+   "city": "라이프치히",
+   "country": "독일",
+   "region": "유럽",
+   "venue": "Leipziger Messe",
+   "cycle": "격년(홀수년)",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "관청 전용 폐쇄형 행사",
+   "url": "https://www.gpec.de",
+   "firms": [
+    "Rohde & Schwarz",
+    "Cellebrite",
+    "DroneShield",
+    "Atos",
+    "Hensoldt"
+   ],
+   "kr": [
+    "참가 이력 제한적"
+   ],
+   "trends": [
+    {
+     "t": "cyber",
+     "d": "디지털 수사·포렌식, 3D 현장 스캐닝."
+    },
+    {
+     "t": "cuas",
+     "d": "경찰 대드론(독일 공동드론방어센터) 사례."
+    },
+    {
+     "t": "ai",
+     "d": "수사 보조 AI와 데이터 보호 규정 준수."
+    }
+   ],
+   "intel": [
+    "독일 연방·주 경찰 디지털 장비 표준",
+    "EU AI법이 치안 AI 조달에 미치는 영향"
+   ],
+   "note": "경찰·보안 관청 소속만 입장 가능(사전 승인)."
+  },
+  {
+   "id": "lima27",
+   "name": "LIMA 2027",
+   "ko": "랑카위 국제 해양·항공우주 전시회",
+   "start": "2027-04-20",
+   "end": "2027-04-24",
+   "status": "ok",
+   "city": "랑카위",
+   "country": "말레이시아",
+   "region": "아시아·태평양",
+   "venue": "MIEC(항공) · Resorts World Langkawi(해양)",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "항공우주",
+    "해양"
+   ],
+   "scale": "목표 전시업체 930곳(36개국)",
+   "url": "https://www.lima.com.my",
+   "firms": [
+    "KAI",
+    "Airbus",
+    "Boeing",
+    "Leonardo",
+    "TUSAŞ(TAI)",
+    "Naval Group",
+    "Saab",
+    "Boustead"
+   ],
+   "kr": [
+    "KAI(참가 확정)",
+    "한화"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "FA-50M 도입 진행 상황과 후속 전투기·헬기 사업."
+    },
+    {
+     "t": "cuas",
+     "d": "주최 측이 예고한 신규 8개 분야 중 드론·무인기·AI 비중 확대."
+    },
+    {
+     "t": "ship",
+     "d": "연안임무함(LMS) 2단계 등 해군 함정 사업."
+    },
+    {
+     "t": "uxv",
+     "d": "남중국해 감시용 무인 해양체계."
+    }
+   ],
+   "intel": [
+    "말레이시아 국방부 Future Force 계획 진척",
+    "LMS·MRSS 등 함정 사업 입찰 일정",
+    "현지 산업 참여(ICP) 조건",
+    "동남아 각국 공군 대표단 접촉"
+   ],
+   "note": "말레이시아 국방부 공지는 4/20–24이며, 일부 보도에 4/17–20로 나온 사례가 있어 출장 전 재확인을 권합니다."
+  },
+  {
+   "id": "dseij27",
+   "name": "DSEI Japan 2027",
+   "ko": "일본 국제 방산 전시회",
+   "start": "2027-04-28",
+   "end": "2027-04-30",
+   "status": "ok",
+   "city": "지바(도쿄 인근)",
+   "country": "일본",
+   "region": "아시아·태평양",
+   "venue": "Makuhari Messe",
+   "cycle": "2년",
+   "domains": [
+    "종합(3군)"
+   ],
+   "scale": "직전 회차 전시업체 470여 곳",
+   "url": "https://www.dsei-japan.com",
+   "firms": [
+    "Mitsubishi Heavy Industries",
+    "Kawasaki Heavy Industries",
+    "Mitsubishi Electric",
+    "NEC",
+    "Lockheed Martin",
+    "BAE Systems",
+    "Leonardo"
+   ],
+   "kr": [
+    "국내 기업 참가는 제한적"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "GCAP(일·영·이 차세대 전투기) 개발 진척과 공급망 참여."
+    },
+    {
+     "t": "fires",
+     "d": "반격능력용 장거리 미사일(12식 개량, 토마호크) 배치."
+    },
+    {
+     "t": "space",
+     "d": "우주작전군 확대에 따른 위성·우주상황인식 사업."
+    },
+    {
+     "t": "ammo",
+     "d": "방산 생산기반 강화법에 따른 부품 국산화·공급망 재편."
+    }
+   ],
+   "intel": [
+    "일본 방위장비청(ATLA) 연구개발 공모",
+    "GCAP 하위 협력사 모집 범위",
+    "일본 방산 수출 규정(이전 3원칙) 운영 변화",
+    "일본 기업과의 부품 협력 가능 분야"
+   ]
+  },
+  {
+   "id": "idef27",
+   "name": "IDEF 2027",
+   "ko": "이스탄불 국제 방산 전시회",
+   "start": "2027-05-03",
+   "end": "2027-05-09",
+   "status": "ok",
+   "city": "이스탄불",
+   "country": "튀르키예",
+   "region": "유럽",
+   "venue": "Istanbul Expo Center",
+   "cycle": "2년",
+   "domains": [
+    "종합(3군)"
+   ],
+   "scale": "직전 회차 49개국 1,491곳",
+   "url": "https://idef.com.tr",
+   "firms": [
+    "Aselsan",
+    "Baykar",
+    "TUSAŞ(TAI)",
+    "Roketsan",
+    "MKE",
+    "FNSS",
+    "Otokar",
+    "STM"
+   ],
+   "kr": [
+    "한화에어로스페이스",
+    "현대로템"
+   ],
+   "trends": [
+    {
+     "t": "cuas",
+     "d": "Baykar·Aselsan의 무인기·대드론 신제품과 수출형 패키지."
+    },
+    {
+     "t": "air",
+     "d": "KAAN 전투기, Hürjet 훈련기 양산 일정과 엔진 국산화."
+    },
+    {
+     "t": "uxv",
+     "d": "무인수상정·무장 USV 계열 확대."
+    },
+    {
+     "t": "iamd",
+     "d": "Steel Dome 다층 방공 구축 진척."
+    }
+   ],
+   "intel": [
+    "튀르키예 방산청(SSB) 수출·공동개발 정책",
+    "튀르키예 업체의 중동·동남아 진출 전략(경쟁 정보)",
+    "파워팩·엔진 등 핵심부품 협력 수요",
+    "전시 기간 서명되는 수출 계약 목록"
+   ],
+   "note": "그동안 7~8월에 열리다 2027년은 5월로 앞당겨졌습니다.",
+   "firmDetails": [
+    {
+     "name": "Aselsan",
+     "past": "IDEF 2025: 지상발사 정밀타격 Göktan, 강철돔 신규 구성품, 전자기 대드론 EJDERHA, 해군 VLS GÖKSUR, 무인잠수정 DERİNGÖZ, 전술 클라우드 Turan 100",
+     "expect": "강철돔 양산·수출"
+    },
+    {
+     "name": "Roketsan",
+     "past": "IDEF 2025: 신규 6종 공개 — 극초음속 Tayfun Block-4 등",
+     "expect": "탄도·순항 미사일 수출"
+    },
+    {
+     "name": "Baykar",
+     "past": "IDEF 2025: 무인전투기 Kızılelma 전시",
+     "expect": "레오나르도와 무인기 합작"
+    },
+    {
+     "name": "TAI·FNSS·BMC",
+     "past": "IDEF 2025: KAAN 관련, FNSS·로켓산 자주 대드론, BMC 신형 차량 3종",
+     "expect": "인니 KAAN 수출 등"
+    }
+   ]
+  },
+  {
+   "id": "sofweek27",
+   "name": "SOF Week 2027",
+   "ko": "미국 특수작전부대 컨퍼런스·전시회",
+   "start": "2027-05-03",
+   "end": "2027-05-06",
+   "status": "ok",
+   "city": "탬파",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Tampa Convention Center 일대",
+   "cycle": "매년",
+   "domains": [
+    "특수작전"
+   ],
+   "scale": "참관 1만 9천여 명",
+   "url": "https://sofweek.org",
+   "firms": [
+    "L3Harris",
+    "Sierra Nevada",
+    "SIG Sauer",
+    "Crye Precision",
+    "Teledyne FLIR",
+    "Persistent Systems",
+    "Anduril"
+   ],
+   "kr": [
+    "국내 기업 참가 소수"
+   ],
+   "trends": [
+    {
+     "t": "sof",
+     "d": "특수전 통신(MANET)·개인 C2 단말과 경량 무장."
+    },
+    {
+     "t": "cuas",
+     "d": "분대 단위 대드론과 FPV 드론 운용."
+    },
+    {
+     "t": "soldier",
+     "d": "야간투시·열상 융합, 저피탐 피복."
+    },
+    {
+     "t": "ai",
+     "d": "특수작전용 엣지 AI·데이터 분석."
+    }
+   ],
+   "intel": [
+    "USSOCOM 획득 우선순위·조달 설명회",
+    "동맹국 특수부대 장비 협력 프로그램"
+   ],
+   "note": "전시는 5/4~6. 컨퍼런스 등록은 정부·군 신분 확인 필요. 숙소 부족이 잦아 조기 예약 권장.",
+   "firmDetails": [
+    {
+     "name": "Teledyne FLIR",
+     "past": "SOF Week 2026: 무인 신제품 2종, 배회탄 Rogue 1 Block 2(사거리 20km+) 공개",
+     "expect": "USSOCOM 정밀타격 사업"
+    },
+    {
+     "name": "AV(AeroVironment)",
+     "past": "SOF Week 2026: 전기추진 고정익 Switchblade SB 400 전시",
+     "expect": "소부대 배회탄"
+    },
+    {
+     "name": "AEVEX",
+     "past": "SOF Week 2026: 무인수상정 Mako Lite 해상 시연, 3D 프린팅 ForgeX",
+     "expect": "현장 적층제조"
+    },
+    {
+     "name": "B.E. Meyers·Vuzix",
+     "past": "SOF Week 2026: 근적외선 레이저 VSLAP-V1, 40° 시야 도파관 HMD",
+     "expect": "야간 표적지시·증강현실"
+    },
+    {
+     "name": "FirstSpear·UF PRO·Wing Group",
+     "past": "SOF Week 2026: 해상·항공 방탄 조끼, 군견 장비, 생존 장비",
+     "expect": "개인 장비"
+    }
+   ]
+  },
+  {
+   "id": "imdex27",
+   "name": "IMDEX Asia 2027",
+   "ko": "싱가포르 해양방산 전시회",
+   "start": "2027-05-04",
+   "end": "2027-05-06",
+   "status": "tent",
+   "city": "싱가포르",
+   "country": "싱가포르",
+   "region": "아시아·태평양",
+   "venue": "Changi Exhibition Centre",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "해양"
+   ],
+   "scale": "전시업체 230여 곳, 50여 개국",
+   "url": "https://www.imdexasia.com",
+   "firms": [
+    "ST Engineering",
+    "Saab",
+    "Naval Group",
+    "Thales",
+    "Kongsberg",
+    "Fincantieri",
+    "TKMS"
+   ],
+   "kr": [
+    "한화오션",
+    "HD현대중공업"
+   ],
+   "trends": [
+    {
+     "t": "ship",
+     "d": "동남아 해군 호위함·잠수함 사업과 한국 조선사 경쟁."
+    },
+    {
+     "t": "uxv",
+     "d": "자율 수상·수중 무인체계와 모함 운용 개념."
+    },
+    {
+     "t": "ai",
+     "d": "해양영역인식(MDA)용 데이터 융합·AI 분석."
+    },
+    {
+     "t": "ew",
+     "d": "함정 전자전·디코이 체계."
+    }
+   ],
+   "intel": [
+    "아태 해군 참모총장 회의 계기 수요 발표",
+    "싱가포르 해군 차기 함정(MRCV) 사업 동향",
+    "동남아 국가 함정 획득 일정",
+    "무인체계 실해역 시연 결과"
+   ],
+   "note": "5/4–6과 5/5–7로 출처가 갈립니다. 공식 사이트 확인이 필요합니다."
+  },
+  {
+   "id": "indodef27",
+   "name": "Indo Defence 2027",
+   "ko": "인도네시아 방산 전시회",
+   "start": "2027-05-12",
+   "end": "2027-05-15",
+   "status": "ok",
+   "city": "탕그랑(자카르타 인근)",
+   "country": "인도네시아",
+   "region": "아시아·태평양",
+   "venue": "NICE PIK 2",
+   "cycle": "2년",
+   "domains": [
+    "종합(3군)",
+    "해양",
+    "항공우주"
+   ],
+   "scale": "목표 전시업체 1,000곳(60개국)",
+   "url": "https://indodefence.com",
+   "firms": [
+    "PT PAL",
+    "PT Pindad",
+    "PT Dirgantara Indonesia",
+    "Defend ID",
+    "Naval Group",
+    "Dassault Aviation",
+    "TUSAŞ(TAI)",
+    "Baykar"
+   ],
+   "kr": [
+    "KAI",
+    "한화",
+    "현대로템",
+    "HD현대중공업"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "KF-21 공동개발 분담 조정 이후 인도네시아 참여 방향."
+    },
+    {
+     "t": "ship",
+     "d": "잠수함(스코르펜)·호위함 현지 건조 진척."
+    },
+    {
+     "t": "local",
+     "d": "Defend ID 중심 현지화 요구와 기술이전 조건."
+    },
+    {
+     "t": "cuas",
+     "d": "군도 감시용 무인기·대드론 체계."
+    }
+   ],
+   "intel": [
+    "인도네시아 국방부 최소필수전력(MEF) 이후 획득계획",
+    "KF-21 관련 정부 간 협의 동향",
+    "현지 조선소 협력 조건",
+    "Indo Aerospace·Indo Marine 병행 전시 정보"
+   ],
+   "note": "2026년 11월 개최 예정이던 회차가 2027년 5월 NICE PIK 2 개최로 정리된 것으로 보입니다.",
+   "firmDetails": [
+    {
+     "name": "PT Pindad",
+     "past": "인도 디펜스 2025: 전기 전술차 MV3-EV \"Pandu\", SS3 소총, 신형 장갑차 2종, Harimau 중형전차",
+     "expect": "국산화 확대"
+    },
+    {
+     "name": "KAI",
+     "past": "인도 디펜스 2025: PTDI와 전략 협력 서명",
+     "expect": "KF-21 인니 분담금·공동생산",
+     "kr": true
+    },
+    {
+     "name": "현대위아",
+     "past": "인도 디펜스 2025 첫 참가: 105mm 경량 자주포 목업, AI 원격사격통제체계",
+     "expect": "동남아 화력 수주",
+     "kr": true
+    },
+    {
+     "name": "KNDS",
+     "past": "인도 디펜스 2025: Pindad 탄약·PTDI 20mm 등 협력 다수",
+     "expect": "세자르 현지화"
+    },
+    {
+     "name": "Turkish Aerospace",
+     "past": "인도 디펜스 2025: KAAN 모형, 인니 계약 추진",
+     "expect": "KAAN 수출"
+    }
+   ]
+  },
+  {
+   "id": "pas27",
+   "name": "Paris Air Show 2027",
+   "ko": "파리 에어쇼(르부르제)",
+   "start": "2027-06-14",
+   "end": "2027-06-20",
+   "status": "ok",
+   "city": "파리",
+   "country": "프랑스",
+   "region": "유럽",
+   "venue": "Paris-Le Bourget",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "항공우주"
+   ],
+   "scale": "전시업체 2,400여 곳(무역일 14–17일)",
+   "url": "https://www.siae.fr",
+   "firms": [
+    "Airbus",
+    "Dassault Aviation",
+    "Safran",
+    "Thales",
+    "MBDA",
+    "Boeing",
+    "Lockheed Martin",
+    "GE Aerospace",
+    "Rolls-Royce"
+   ],
+   "kr": [
+    "KAI",
+    "한화에어로스페이스",
+    "대한항공"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "FCAS(SCAF) 차세대 전투기 체계의 진로와 엔진 개발 일정."
+    },
+    {
+     "t": "mumt",
+     "d": "유인기와 함께 운용할 무인 협동기(Loyal wingman) 실물 공개."
+    },
+    {
+     "t": "space",
+     "d": "유럽 우주 자립(발사체·위성군) 투자 확대."
+    },
+    {
+     "t": "iamd",
+     "d": "유럽 공동 방공(ESSI) 구성 무기 조달."
+    }
+   ],
+   "intel": [
+    "대형 항공기·엔진 주문 발표(공급망 수요 예측)",
+    "유럽 방산 재무장 예산(ReArm Europe) 집행 방향",
+    "프랑스 방산업체 협력사 모집 분야",
+    "항공엔진 부품 국제공동개발(RSP) 기회"
+   ],
+   "firmDetails": [
+    {
+     "name": "KAI",
+     "past": "파리 에어쇼 2025: KF-21(2026 양산 계획 발표)·FA-50, 무인 충성윙맨(KUS-FS), 록히드마틴과 회전익·우주·무인 협력 MOU",
+     "expect": "KF-21 수출형·유무인 편대",
+     "kr": true
+    },
+    {
+     "name": "Dassault Aviation",
+     "past": "파리 에어쇼 2025: 라팔 F5 지원 스텔스 무인전투기 공개",
+     "expect": "라팔 F5·FCAS 일정"
+    },
+    {
+     "name": "MBDA",
+     "past": "파리 에어쇼 2025: 저가 장거리 타격체(자동차 업계 협업), SPLINTER 위성 목업, 다층 방공",
+     "expect": "유럽 주권 무기 생산"
+    },
+    {
+     "name": "General Atomics",
+     "past": "파리 에어쇼 2025: YFQ-42A CCA 대형 모형",
+     "expect": "CCA 유럽 수출"
+    },
+    {
+     "name": "Airbus",
+     "past": "파리 에어쇼 2025: A400M, 레이서 복합헬기",
+     "expect": "FCAS·무인기"
+    }
+   ]
+  },
+  {
+   "id": "mspo27",
+   "name": "MSPO 2027",
+   "ko": "폴란드 국제 방산 전시회",
+   "start": "2027-08-31",
+   "end": "2027-09-03",
+   "status": "ok",
+   "city": "키엘체",
+   "country": "폴란드",
+   "region": "유럽",
+   "venue": "Targi Kielce",
+   "cycle": "매년",
+   "domains": [
+    "지상",
+    "종합(3군)"
+   ],
+   "scale": "유럽 3위권 방산 전시회",
+   "url": "https://www.targikielce.pl/en/mspo",
+   "firms": [
+    "PGZ(폴란드 군비그룹)",
+    "Huta Stalowa Wola",
+    "WB Group",
+    "Rheinmetall",
+    "KNDS",
+    "Lockheed Martin",
+    "RTX",
+    "Saab"
+   ],
+   "kr": [
+    "한화에어로스페이스",
+    "현대로템",
+    "LIG넥스원"
+   ],
+   "trends": [
+    {
+     "t": "local",
+     "d": "K2·K9·천무 2차 이행계약과 연계된 폴란드 현지생산·기술이전 범위가 최대 관심사."
+    },
+    {
+     "t": "cuas",
+     "d": "동부 국경 방어 구상과 연계한 드론 탐지·요격망 수요."
+    },
+    {
+     "t": "iamd",
+     "d": "Wisła·Narew 방공 체계 확장과 단거리 방공 보강."
+    },
+    {
+     "t": "ammo",
+     "d": "유럽 탄약 생산 확대(ASAP·SAFE 재원)와 폴란드 내 탄약공장 투자."
+    },
+    {
+     "t": "land",
+     "d": "보병전투차량·궤도형 플랫폼 국산화 경쟁."
+    }
+   ],
+   "intel": [
+    "폴란드 국방부 무기획득청(AU) 차년도 사업 목록",
+    "현지 협력업체(PGZ 계열)와의 부품 공급 기회",
+    "EU SAFE 대출 재원의 사용 조건과 비EU 업체 참여 범위",
+    "동유럽(발트·루마니아) 대표단 접촉"
+   ],
+   "firmDetails": [
+    {
+     "name": "현대로템",
+     "past": "MSPO 2025: K2PL 실물(능동방호·대드론 재머), HR-SHERPA 양산형, 라파엘과 트로피 APS 통합 합의",
+     "expect": "K2PL 폴란드 현지 생산 진척",
+     "kr": true
+    },
+    {
+     "name": "한화에어로스페이스·한화시스템·한화오션",
+     "past": "MSPO 2025: WB그룹과 천무 유도탄(CGR-080) 합작 법인 계약, K9·K10, 차량 능동방호체계 첫 공개(PCO와 현지화), KSS-III 잠수함",
+     "expect": "오르카 잠수함 사업, 유도탄 현지 생산",
+     "kr": true
+    },
+    {
+     "name": "WB Group",
+     "past": "MSPO 2025: 최대 전시관, 무인전투정 Stormrider",
+     "expect": "배회형탄약·무인체계 수출"
+    },
+    {
+     "name": "현대위아·SNT다이내믹스·SNT모티브",
+     "past": "MSPO 2025: 105mm 자주포, SNT 첫 대형 공동 전시(소화기·파워트레인)",
+     "expect": "폴란드 부품 협력",
+     "kr": true
+    },
+    {
+     "name": "PGZ(폴란드 국영)",
+     "past": "MSPO 2025: Rosomak-L, Bluszcz 지뢰부설차",
+     "expect": "현지화 요구 수준"
+    }
+   ]
+  },
+  {
+   "id": "dsei27",
+   "name": "DSEI 2027",
+   "ko": "런던 국제 방산 전시회",
+   "start": "2027-09-07",
+   "end": "2027-09-10",
+   "status": "ok",
+   "city": "런던",
+   "country": "영국",
+   "region": "유럽",
+   "venue": "ExCeL London",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "종합(3군)",
+    "특수작전"
+   ],
+   "scale": "세계 최대급 3군 방산 전시회",
+   "url": "https://www.dsei.co.uk",
+   "firms": [
+    "BAE Systems",
+    "Rolls-Royce",
+    "Babcock",
+    "QinetiQ",
+    "Leonardo UK",
+    "MBDA",
+    "Thales UK",
+    "Rheinmetall BAE Systems Land"
+   ],
+   "kr": [
+    "한화에어로스페이스",
+    "현대로템",
+    "LIG넥스원",
+    "HD현대중공업"
+   ],
+   "trends": [
+    {
+     "t": "ai",
+     "d": "영국 전략방위검토(SDR) 이후 디지털 표적망·AI 의사결정 지원 사업."
+    },
+    {
+     "t": "cuas",
+     "d": "우크라이나 전훈 기반 저가 드론·대드론 대량 생산 체계."
+    },
+    {
+     "t": "ammo",
+     "d": "영국·유럽 탄약 및 에너지틱 물질 공장 신설."
+    },
+    {
+     "t": "uxv",
+     "d": "해군의 하이브리드 함대(유무인 혼합) 구상."
+    },
+    {
+     "t": "dew",
+     "d": "DragonFire 레이저 등 지향성에너지 무기 배치."
+    }
+   ],
+   "intel": [
+    "영국 국방부 방위산업전략(DIS) 후속 조달 계획",
+    "NATO·유럽 다국적 공동구매 프로젝트",
+    "GCAP·전투기 공급망 참여 기회",
+    "영국 자주포·전차 후속 사업 정보"
+   ],
+   "firmDetails": [
+    {
+     "name": "한화(에어로스페이스·시스템·오션)",
+     "past": "DSEI 2025: 155mm 모듈화장약(MCS), K9 계열 AS9 헌츠맨, 신형 52구경 차륜형 자주포(개발 중) 첫 공개, 천무 계열 딥스트라이크 발사대, L-SAM 요격체, 레드백 보병전투차",
+     "expect": "영국·유럽 현지화(멀티 도메스틱) 제안 구체화, 차륜형 K9 시제 진척, 탄약 현지 생산 협력",
+     "kr": true
+    },
+    {
+     "name": "General Dynamics Land Systems UK",
+     "past": "DSEI 2025: AJAX 보병전투차(IFV) 신형 변형(록히드 포탑·CT40 기관포) 공개",
+     "expect": "영국 육군 장갑차 사업 후속, IFV 변형 양산 여부"
+    },
+    {
+     "name": "BAE Systems",
+     "past": "DSEI 2025: AMPV 지휘통제(C2) 변형 내부 공개, 무기체계·드론 전시",
+     "expect": "CV90·AMPV 생산능력 확충, 유무인 협업"
+    },
+    {
+     "name": "Rheinmetall",
+     "past": "DSEI 2025: KF41 Lynx, Fuchs JAGM 대전차미사일 차량 첫 공개, 자율주행 키트(Path-A-Kit), 4×4·6×6 무인 버기",
+     "expect": "탄약 증산, 영국 내 차량·탄약 생산 확대"
+    },
+    {
+     "name": "SIG Sauer·Beretta·Heckler & Koch·FN Herstal",
+     "past": "DSEI 2025: 주요 소화기 업체 전시관 집중",
+     "expect": "6.8mm 등 차세대 소총·광학 연동"
+    }
+   ]
+  },
+  {
+   "id": "iacp27",
+   "name": "IACP 2027",
+   "ko": "국제경찰청장협회 연차 총회·전시회",
+   "start": "2027-10-09",
+   "end": "2027-10-12",
+   "status": "tent",
+   "city": "필라델피아",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Pennsylvania Convention Center(재확인)",
+   "cycle": "매년",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "참관 1만 6천여 명",
+   "url": "https://www.theiacpconference.org",
+   "firms": [
+    "Axon",
+    "Motorola Solutions",
+    "Flock Safety",
+    "Cellebrite",
+    "Ford Pro(경찰차)"
+   ],
+   "kr": [
+    "경찰청 대표단 참석 사례"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "바디캠·실시간 범죄센터(RTCC)·차량번호 인식."
+    },
+    {
+     "t": "ai",
+     "d": "보고서 자동작성 AI와 감독 체계."
+    },
+    {
+     "t": "cuas",
+     "d": "경찰 드론 우선대응(DFR) 프로그램."
+    }
+   ],
+   "intel": [
+    "미국 경찰 기술 도입 사례와 개인정보 규제",
+    "국내 치안 기술 수출 파트너 탐색"
+   ],
+   "note": "일부 자료에 날짜 다르게 표기됨. 공식 홈페이지 재확인."
+  },
+  {
+   "id": "ausa27",
+   "name": "AUSA 2027",
+   "ko": "미 육군협회 연례회의·전시회",
+   "start": "2027-10-11",
+   "end": "2027-10-13",
+   "status": "ok",
+   "city": "워싱턴 D.C.",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Walter E. Washington Convention Center",
+   "cycle": "매년",
+   "domains": [
+    "지상"
+   ],
+   "scale": "참관 4만여 명, 전시 750여 곳",
+   "url": "https://www.ausa.org",
+   "firms": [
+    "General Dynamics Land Systems",
+    "Lockheed Martin",
+    "RTX",
+    "Oshkosh Defense",
+    "BAE Systems",
+    "Anduril",
+    "Palantir",
+    "AeroVironment"
+   ],
+   "kr": [
+    "한화(미국 법인)",
+    "현대로템"
+   ],
+   "trends": [
+    {
+     "t": "cuas",
+     "d": "소부대 단위 대드론 체계, 요격 드론·전자적 무력화 장비가 전시장 핵심이 될 가능성이 큼."
+    },
+    {
+     "t": "ai",
+     "d": "미 육군 변혁 이니셔티브 기조에 따라 전술 데이터망·AI 표적처리(센서-슈터 단축) 시연."
+    },
+    {
+     "t": "land",
+     "d": "차세대 장갑차·경전차 개념, 무인 지상차량(UGV)과 로봇 전투차량 실증 결과."
+    },
+    {
+     "t": "fires",
+     "d": "자주포·다연장 사거리 연장, PrSM 등 정밀타격 탄의 생산 확대 계획."
+    },
+    {
+     "t": "ammo",
+     "d": "155mm 탄 생산 증설과 신규 공급사 진입 기회."
+    }
+   ],
+   "intel": [
+    "미 육군 현대화 우선순위와 예산 요구 방향(육군참모총장·장관 기조연설)",
+    "신속획득(OTA) 경로로 진입할 수 있는 사업 공고",
+    "미국 내 생산(Buy American) 요건과 현지 파트너 조건",
+    "전차·자주포 차기 사업의 요구성능 초안"
+   ],
+   "firmDetails": [
+    {
+     "name": "한화(Hanwha Defense USA)",
+     "past": "AUSA 2025: K9A1 실물, 차륜형 K9A2(8×8 트럭) 미국 시장 공개, GA-ASI와 그레이이글 STOL 공동개발·생산 합의",
+     "expect": "차륜형 K9 미 육군 시험 결과, 장약 미국 현지화",
+     "kr": true
+    },
+    {
+     "name": "General Dynamics Land Systems",
+     "past": "AUSA 2025: 대드론 MUTT XM 로봇차량, 에이브럼스 탑재 배회형탄약(PERCH), Epirus 레오니다스 고출력 극초단파 탑재",
+     "expect": "전차·장갑차 대드론 통합"
+    },
+    {
+     "name": "Anduril",
+     "past": "AUSA 2025: Lattice 연동 레이더를 판두르 차량에 탑재, EagleEye 헬멧형 지휘장비",
+     "expect": "소부대 C2·대드론 확산"
+    },
+    {
+     "name": "American Rheinmetall",
+     "past": "AUSA 2025: ISV-C 차량 탑재 Skyranger 762 방공",
+     "expect": "기동 단거리 방공"
+    },
+    {
+     "name": "Saab·Boeing",
+     "past": "AUSA 2025: 지상발사 소직경폭탄(GL-SDB)",
+     "expect": "장거리 정밀화력 대안"
+    }
+   ]
+  },
+  {
+   "id": "indopac27",
+   "name": "Indo Pacific 2027",
+   "ko": "인도태평양 국제 해양 전시회",
+   "start": "2027-11-02",
+   "end": "2027-11-04",
+   "status": "ok",
+   "city": "시드니",
+   "country": "호주",
+   "region": "아시아·태평양",
+   "venue": "ICC Sydney",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "해양"
+   ],
+   "scale": "참관 2만 8천여 명",
+   "url": "https://www.indopacificexpo.com.au",
+   "firms": [
+    "BAE Systems Australia",
+    "Austal",
+    "Navantia",
+    "Thales Australia",
+    "Kongsberg",
+    "ASC",
+    "Mitsubishi Heavy Industries"
+   ],
+   "kr": [
+    "한화오션",
+    "HD현대중공업"
+   ],
+   "trends": [
+    {
+     "t": "ship",
+     "d": "호주 수상함대 재편(범용 호위함 등) 사업 진척과 현지 건조 조건."
+    },
+    {
+     "t": "uxv",
+     "d": "Ghost Shark 등 대형 자율 무인잠수정 양산."
+    },
+    {
+     "t": "local",
+     "d": "AUKUS 잠수함 사업 공급망 현지화."
+    },
+    {
+     "t": "ai",
+     "d": "해양 감시용 AI·센서 융합."
+    }
+   ],
+   "intel": [
+    "호주 해군 함대 계획 업데이트",
+    "AUKUS 잠수함 협력사 인증 요건",
+    "호주 조선소(헨더슨·오스본) 협력 기회",
+    "아태 해군 대표단 수요"
+   ]
+  },
+  {
+   "id": "dst27",
+   "name": "Defense & Security 2027",
+   "ko": "태국 방산·보안 전시회",
+   "start": "2027-11-08",
+   "end": "2027-11-11",
+   "status": "tent",
+   "city": "방콕",
+   "country": "태국",
+   "region": "아시아·태평양",
+   "venue": "IMPACT Exhibition Centre",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "종합(3군)",
+    "보안·경찰"
+   ],
+   "scale": "직전 회차 전시업체 400여 곳",
+   "url": "https://www.asiandefense.com",
+   "firms": [
+    "Chaiseri",
+    "DTI(태국 방산기술연구소)",
+    "Saab",
+    "Elbit Systems",
+    "Leonardo",
+    "Airbus"
+   ],
+   "kr": [
+    "KAI",
+    "한화"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "T-50TH 운용 확대와 차기 전투기·훈련기 사업."
+    },
+    {
+     "t": "land",
+     "d": "차륜형 장갑차 현지 생산."
+    },
+    {
+     "t": "cyber",
+     "d": "국경·치안 감시 솔루션."
+    },
+    {
+     "t": "cuas",
+     "d": "소형 무인기 및 대드론 장비 수요."
+    }
+   ],
+   "intel": [
+    "태국 3군 획득 계획",
+    "현지 조립·생산 파트너 조건",
+    "아세안 국가 구매 대표단",
+    "치안·재난 대응 장비 수요"
+   ],
+   "firmDetails": [
+    {
+     "name": "한화오션",
+     "past": "Defense & Security 2025: OCEAN-40F 호위함, Naval Group(SETIS)·MBDA·Cohort와 MOU",
+     "expect": "태국 2차 호위함 사업",
+     "kr": true
+    },
+    {
+     "name": "HD현대중공업",
+     "past": "태국 호위함 수주 경쟁(현지 기여 전략)",
+     "expect": "태국 해군 사업",
+     "kr": true
+    }
+   ]
+  },
+  {
+   "id": "dubai27",
+   "name": "Dubai Airshow 2027",
+   "ko": "두바이 에어쇼",
+   "start": "2027-11-15",
+   "end": "2027-11-19",
+   "status": "ok",
+   "city": "두바이",
+   "country": "UAE",
+   "region": "중동",
+   "venue": "DWC, Dubai Airshow Site",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "항공우주"
+   ],
+   "scale": "직전 회차 전시업체 1,500여 곳",
+   "url": "https://www.dubaiairshow.aero",
+   "firms": [
+    "EDGE Group",
+    "Boeing",
+    "Airbus",
+    "Lockheed Martin",
+    "Dassault Aviation",
+    "Embraer",
+    "COMAC"
+   ],
+   "kr": [
+    "KAI",
+    "한화에어로스페이스"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "걸프 국가 전투기·수송기 도입 경쟁과 중국 항공기 진입."
+    },
+    {
+     "t": "mumt",
+     "d": "UAE 무인기·협동전투기 자체 개발 공개."
+    },
+    {
+     "t": "space",
+     "d": "UAE 우주 프로그램과 군 위성 수요."
+    },
+    {
+     "t": "local",
+     "d": "현지 MRO·생산 거점 요구."
+    }
+   ],
+   "intel": [
+    "걸프 항공사·공군의 대규모 주문 발표",
+    "UAE 방산 현지화 정책",
+    "중동 항공 MRO 협력 기회",
+    "중국 항공기 업체의 중동 마케팅(경쟁 정보)"
+   ],
+   "firmDetails": [
+    {
+     "name": "EDGE Group",
+     "past": "두바이 에어쇼 2025: 신제품 42종 공개, 21건 협약(인니 Republikorp 70억 달러), KAI·L3Harris MOU",
+     "expect": "UAE 국산 무장·대드론 레이더"
+    },
+    {
+     "name": "KAI",
+     "past": "두바이 에어쇼 2025: KF-21과 무인 윙맨 모형, EDGE와 MOU",
+     "expect": "UAE 협력 구체화",
+     "kr": true
+    },
+    {
+     "name": "General Atomics",
+     "past": "두바이 에어쇼 2025: YFQ-42A 실물 크기 모형",
+     "expect": "CCA 중동 수출"
+    },
+    {
+     "name": "Lockheed Martin",
+     "past": "두바이 에어쇼 2025: F-35 비행(사우디 판매 협의 중)",
+     "expect": "걸프 F-35"
+    },
+    {
+     "name": "러시아·중국 업체",
+     "past": "두바이 에어쇼 2025: Su-57 비행, 판치르-SMD-E, CH-9 무인기",
+     "expect": "경쟁 제품 동향"
+    }
+   ]
+  },
+  {
+   "id": "milipol27",
+   "name": "Milipol Paris 2027",
+   "ko": "파리 국토안보 전시회",
+   "start": "2027-11-16",
+   "end": "2027-11-19",
+   "status": "ok",
+   "city": "파리",
+   "country": "프랑스",
+   "region": "유럽",
+   "venue": "Paris Nord Villepinte",
+   "cycle": "2년(홀수년)",
+   "domains": [
+    "보안·경찰",
+    "특수작전",
+    "총기·사격"
+   ],
+   "scale": "세계 최대 국토안보 전문 전시회",
+   "url": "https://www.milipol.com",
+   "firms": [
+    "Thales",
+    "Idemia",
+    "Airbus(보안통신)",
+    "Motorola Solutions",
+    "Axon",
+    "Safran"
+   ],
+   "kr": [
+    "국내 보안·드론 중소기업 공동관"
+   ],
+   "trends": [
+    {
+     "t": "cyber",
+     "d": "대테러·주요 기반시설 보호를 위한 사이버·물리 통합 보안."
+    },
+    {
+     "t": "cuas",
+     "d": "도심 행사·공항 대상 대드론 탐지·무력화."
+    },
+    {
+     "t": "ai",
+     "d": "영상 분석·생체인식 AI와 유럽 AI법 규제 대응."
+    }
+   ],
+   "intel": [
+    "유럽 경찰·국경경비 조달 방향",
+    "EU AI법에 따른 감시 기술 사용 제한",
+    "대드론 인증·시험 기준",
+    "중동·아프리카 치안 장비 수요"
+   ],
+   "firmDetails": [
+    {
+     "name": "FN Herstal",
+     "past": "Milipol Paris 2025: 법집행용 살상·비살상 무기 통합 라인업 공개",
+     "expect": "유럽 경찰 화기"
+    },
+    {
+     "name": "Drone Volt",
+     "past": "Milipol Paris 2025: Kobra 쿼드콥터에 CBRN 센서(AP4C+) 통합, 드론 제독",
+     "expect": "CBRN 대응 드론"
+    },
+    {
+     "name": "Rohde & Schwarz",
+     "past": "Milipol Paris 2025: 국경 감시·신호정보 솔루션",
+     "expect": "국경 SIGINT"
+    },
+    {
+     "name": "Aaronia·Sentrycs·ParaZero",
+     "past": "Milipol Paris 2025: 대드론 탐지·사이버 무력화·DefendAir",
+     "expect": "대드론 법집행 적용"
+    },
+    {
+     "name": "프랑스 국가헌병대(GIGN)",
+     "past": "Milipol Paris 2025: 버스 진입 대테러 시연",
+     "expect": "전술 장비 실사용 사례"
+    }
+   ]
+  },
+  {
+   "id": "ise27",
+   "name": "International Security Expo 2027",
+   "ko": "영국 국토안보·대테러 전시회",
+   "start": "2027-11-24",
+   "end": "2027-11-25",
+   "status": "tent",
+   "city": "런던",
+   "country": "영국",
+   "region": "유럽",
+   "venue": "Olympia London",
+   "cycle": "매년",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "참관 1만여 명",
+   "url": "https://www.internationalsecurityexpo.com",
+   "firms": [
+    "Smiths Detection",
+    "Rohde & Schwarz",
+    "Rapiscan",
+    "Gallagher Security"
+   ],
+   "kr": [
+    "참가 이력 제한적"
+   ],
+   "trends": [
+    {
+     "t": "border",
+     "d": "국경·교통 보안 검색 장비."
+    },
+    {
+     "t": "cuas",
+     "d": "대드론·주변 방호 기술."
+    },
+    {
+     "t": "cyber",
+     "d": "International Cyber Expo와 동시 개최."
+    }
+   ],
+   "intel": [
+    "영국 핵심기반시설 방호 수요",
+    "Milipol Paris(11/16~19)와 연계 일정 검토"
+   ]
+  },
+  {
+   "id": "iitsec27",
+   "name": "I/ITSEC 2027",
+   "ko": "미국 교육훈련·시뮬레이션 컨퍼런스",
+   "start": "2027-11-29",
+   "end": "2027-12-03",
+   "status": "tent",
+   "city": "올랜도",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Orange County Convention Center",
+   "cycle": "매년",
+   "domains": [
+    "훈련·시뮬레이션"
+   ],
+   "scale": "참관 1만 5천여 명",
+   "url": "https://www.iitsec.org",
+   "firms": [
+    "CAE",
+    "Lockheed Martin",
+    "Boeing",
+    "BAE Systems",
+    "Collins Aerospace",
+    "Bohemia Interactive Simulations",
+    "L3Harris"
+   ],
+   "kr": [
+    "국내 대형사 참가는 제한적"
+   ],
+   "trends": [
+    {
+     "t": "sim",
+     "d": "합성훈련환경(STE)과 클라우드 기반 대규모 분산 시뮬레이션이 주제의 중심에 설 전망."
+    },
+    {
+     "t": "ai",
+     "d": "생성형 AI로 시나리오·적 행동을 자동 생성하는 교관 보조, AI 성과 분석 도구 시연 확대."
+    },
+    {
+     "t": "mumt",
+     "d": "유무인 협업 전술을 사전에 검증하는 디지털트윈·LVC(실기동·가상·구성) 연동."
+    },
+    {
+     "t": "cuas",
+     "d": "드론 위협 대응 훈련용 시뮬레이터와 표적 드론 수요 증가."
+    }
+   ],
+   "intel": [
+    "미 육군·해군·공군 훈련체계 획득 로드맵 발표 세션",
+    "LVC·합성환경 표준(HLA/DIS 후속) 논의 동향",
+    "게임엔진·XR 하드웨어의 군 인증 사례와 단가",
+    "교육훈련 시뮬레이터 국제공동개발·부품 공급 파트너 탐색"
+   ]
+  },
+  {
+   "id": "wds28",
+   "name": "World Defense Show 2028",
+   "ko": "사우디 세계 방산 전시회",
+   "start": "2028-01-16",
+   "end": "2028-01-20",
+   "status": "ok",
+   "city": "리야드",
+   "country": "사우디아라비아",
+   "region": "중동",
+   "venue": "World Defense Show 전용 전시장",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "종합(3군)"
+   ],
+   "scale": "2026년 89개국 1,486곳, 대표단 513개",
+   "url": "https://worlddefenseshow.com",
+   "firms": [
+    "SAMI",
+    "GAMI",
+    "Lockheed Martin",
+    "RTX",
+    "Boeing",
+    "Rheinmetall",
+    "Leonardo",
+    "DEMCO"
+   ],
+   "kr": [
+    "한화에어로스페이스",
+    "현대로템",
+    "LIG넥스원",
+    "KAI"
+   ],
+   "trends": [
+    {
+     "t": "local",
+     "d": "비전 2030의 방산 현지화 50% 목표에 맞춘 합작·생산 이전 요구."
+    },
+    {
+     "t": "iamd",
+     "d": "중동 방공망 확충, 천궁-II 등 한국 체계 후속 협력."
+    },
+    {
+     "t": "cuas",
+     "d": "후티 드론·미사일 위협에 대응한 대드론 투자."
+    },
+    {
+     "t": "land",
+     "d": "K2·K9 등 지상장비 도입 협상과 현지 조립."
+    }
+   ],
+   "intel": [
+    "GAMI 현지화 요건·인센티브 세부",
+    "SAMI 등과의 합작 계약 발표",
+    "2026년 체결된 MOU의 이행 상황",
+    "캐나다관 등 신규 국가관 참가 동향"
+   ],
+   "firmDetails": [
+    {
+     "name": "한화(에어로·시스템·오션)",
+     "past": "WDS 2026: 역대 최대 부스, 국산 엔진 탑재 K9A1 실물",
+     "expect": "사우디 현지 생산(비전 2030) 협력",
+     "kr": true
+    },
+    {
+     "name": "현대로템",
+     "past": "WDS 2026: AI·무인·수소 3대 주제 전시",
+     "expect": "중동형 전차·무인차량",
+     "kr": true
+    },
+    {
+     "name": "KAI",
+     "past": "WDS 2026: KF-21 전면 배치, FA-50과 AAP 무인기 근접편대 1/10 모형",
+     "expect": "FA-50 중동 수출",
+     "kr": true
+    },
+    {
+     "name": "LIG넥스원",
+     "past": "WDS 2026: 통합대공망·차세대 항공무장·유무인복합 종합 솔루션",
+     "expect": "천궁-II 후속 수출",
+     "kr": true
+    },
+    {
+     "name": "HD현대중공업",
+     "past": "WDS 2026: 사우디 맞춤 6,000톤급 호위함 HDF-6000 등 함정 8종",
+     "expect": "사우디 차기 호위함 사업",
+     "kr": true
+    },
+    {
+     "name": "SAMI",
+     "past": "WDS 2026: HEET 장갑차 4×4·8×8 공개, 신규 자회사 2곳·지상장비 단지 개소",
+     "expect": "현지화 비율 요구"
+    }
+   ]
+  },
+  {
+   "id": "intersec28",
+   "name": "Intersec Global 2028",
+   "ko": "UAE 국제 보안·안전·대테러 전시회",
+   "start": "2028-01-17",
+   "end": "2028-01-19",
+   "status": "est",
+   "city": "두바이",
+   "country": "UAE",
+   "region": "중동",
+   "venue": "Dubai World Trade Centre",
+   "cycle": "매년",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "참가 1,000여 개사",
+   "url": "https://intersecglobal.ae.messefrankfurt.com",
+   "firms": [
+    "Motorola Solutions",
+    "Axis",
+    "Bosch",
+    "Smiths Detection",
+    "EDGE Group"
+   ],
+   "kr": [
+    "영상보안 기업 참가 이력"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "치안 통합관제·영상분석 AI."
+    },
+    {
+     "t": "cuas",
+     "d": "기반시설 대드론."
+    }
+   ],
+   "intel": [
+    "UAE 치안 조달 동향"
+   ],
+   "note": "일정 미발표 — 예년 1월 중순 패턴으로 추정."
+  },
+  {
+   "id": "shot28",
+   "name": "SHOT Show 2028",
+   "ko": "미국 사격·수렵·법집행 장비 전시회",
+   "start": "2028-01-25",
+   "end": "2028-01-28",
+   "status": "ok",
+   "city": "라스베이거스",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Venetian Expo + Caesars Forum",
+   "cycle": "매년",
+   "domains": [
+    "총기·사격",
+    "보안·경찰"
+   ],
+   "scale": "전시 2,700여 부스",
+   "url": "https://shotshow.org",
+   "firms": [
+    "SIG Sauer",
+    "Glock",
+    "Smith & Wesson",
+    "Ruger",
+    "Beretta",
+    "Vortex Optics",
+    "Axon"
+   ],
+   "kr": [
+    "국내 탄약·광학 기업 일부 출품 이력"
+   ],
+   "trends": [
+    {
+     "t": "small",
+     "d": "광학 일체형 권총·신형 탄종 보급 확대."
+    },
+    {
+     "t": "police",
+     "d": "법집행 비살상 장비와 데이터 연동."
+    },
+    {
+     "t": "soldier",
+     "d": "열상·야투 장비 저가화."
+    }
+   ],
+   "intel": [
+    "미국 총기·탄약 시장 수요 변화",
+    "수출통제 규정 변화"
+   ],
+   "note": "SHOT Show 공식 홈페이지의 향후 일정 기준. 업계 전용 행사.",
+   "firmDetails": [
+    {
+     "name": "Glock",
+     "past": "SHOT Show 2026: Gen6(G17·G19·G45) 전면 재설계 공개 — 최대 화제",
+     "expect": "경찰 제식 교체·홀스터 호환"
+    },
+    {
+     "name": "SIG Sauer",
+     "past": "SHOT Show 2026: P211 GT4·GT5, 3D 프린팅 티타늄 소음기 Hexium; M7(6.8mm) 실적",
+     "expect": "P320 논란 대응, 6.8mm 확산"
+    },
+    {
+     "name": "Heckler & Koch",
+     "past": "SHOT Show 2026: 레인지데이 화제작 CC9 권총",
+     "expect": "미국 법집행 시장"
+    },
+    {
+     "name": "Beretta",
+     "past": "SHOT Show 2026: 창사 500주년·92계열 50주년 한정판, 경찰용 M92 개량",
+     "expect": "경찰 수요"
+    },
+    {
+     "name": "Staccato·Nightstick 등",
+     "past": "SHOT Show 2026: 경찰 감시팀 공동개발 HD C4X, 경찰 전용 무기등 TCM-10-T",
+     "expect": "법집행 장비 세분화"
+    }
+   ]
+  },
+  {
+   "id": "sgas28",
+   "name": "Singapore Airshow 2028",
+   "ko": "싱가포르 에어쇼",
+   "start": "2028-02-15",
+   "end": "2028-02-20",
+   "status": "ok",
+   "city": "싱가포르",
+   "country": "싱가포르",
+   "region": "아시아·태평양",
+   "venue": "Changi Exhibition Centre",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "항공우주"
+   ],
+   "scale": "직전 회차 무역 관람객 6만 5천 명",
+   "url": "https://www.singaporeairshow.com",
+   "firms": [
+    "ST Engineering",
+    "Airbus",
+    "Boeing",
+    "Lockheed Martin",
+    "Pratt & Whitney",
+    "Rolls-Royce",
+    "Thales"
+   ],
+   "kr": [
+    "KAI",
+    "한화에어로스페이스",
+    "대한항공"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "아태 공군 전투기·훈련기 교체 수요."
+    },
+    {
+     "t": "space",
+     "d": "동남아 위성·우주 인프라 투자."
+    },
+    {
+     "t": "ai",
+     "d": "MRO 디지털화와 예측정비 AI."
+    },
+    {
+     "t": "mumt",
+     "d": "아태 국가의 무인기 운용 확대."
+    }
+   ],
+   "intel": [
+    "아태 항공 MRO 수요 전망",
+    "동남아 공군 차기 사업",
+    "싱가포르 공군 현대화 계획",
+    "항공 공급망 재편 논의"
+   ],
+   "note": "무역일은 2/15–18, 이후 주말은 일반 공개입니다.",
+   "firmDetails": [
+    {
+     "name": "ST Engineering",
+     "past": "싱가포르 에어쇼 2026: 최대 출품사, 하이브리드 Terrex s5 8×8, 배회형탄약 EagleStrike, AI 조종석 음성비서·GEMINI-X 데이터링크, Shield AI·에어버스 협력",
+     "expect": "유무인 운용 관리"
+    },
+    {
+     "name": "Lockheed Martin",
+     "past": "싱가포르 에어쇼 2026: RSAF F-35B 2026년 말 첫 인도 확인, 호주 F-35A 비행 시범",
+     "expect": "F-35 아시아 운용"
+    },
+    {
+     "name": "KAI",
+     "past": "싱가포르 에어쇼 2026: 동남아 시장 공략 전시",
+     "expect": "FA-50·KF-21 동남아",
+     "kr": true
+    },
+    {
+     "name": "중국 CATIC",
+     "past": "싱가포르 에어쇼 2026: J-35 대형 모형",
+     "expect": "중국 수출 전략"
+    }
+   ]
+  },
+  {
+   "id": "enforcetac28",
+   "name": "Enforce Tac 2028",
+   "ko": "독일 경찰·군 특수장비 전시회",
+   "start": "2028-02-28",
+   "end": "2028-03-01",
+   "status": "est",
+   "city": "뉘른베르크",
+   "country": "독일",
+   "region": "유럽",
+   "venue": "Exhibition Centre Nuremberg",
+   "cycle": "매년",
+   "domains": [
+    "보안·경찰",
+    "특수작전",
+    "총기·사격"
+   ],
+   "scale": "8개 홀 규모",
+   "url": "https://www.enforcetac.com",
+   "firms": [
+    "Heckler & Koch",
+    "Rheinmetall",
+    "SIG Sauer",
+    "Hensoldt"
+   ],
+   "kr": [
+    "국내 방탄·광학 기업 소수 참가"
+   ],
+   "trends": [
+    {
+     "t": "sof",
+     "d": "특수부대·경찰 공용 장비."
+    },
+    {
+     "t": "soldier",
+     "d": "방호 장비 경량화."
+    }
+   ],
+   "intel": [
+    "유럽 치안·특수전 장비 조달"
+   ],
+   "note": "일정 미발표 — 예년 2월 말~3월 초 패턴으로 추정.",
+   "firmDetails": [
+    {
+     "name": "Rheinmetall",
+     "past": "Enforce Tac 2026: Gladius 2.0 기반 경보병·영토방위 연결 개념, 신형 헬멧·방탄복, 견착식 40mm SSW40, 대드론 RCWS320C-UAS, 배회탄 FV-014, Fuchs JAGM 독일 첫 전시",
+     "expect": "경찰·군 공용 장비"
+    },
+    {
+     "name": "Diehl Defence",
+     "past": "Enforce Tac 2026: 대드론 GARMR(구 KDV) 공개",
+     "expect": "독일 대드론 조달"
+    },
+    {
+     "name": "Quantum Systems",
+     "past": "Enforce Tac 2026: 첫 무인지상차량(UGV) 공개",
+     "expect": "드론 업체의 지상 확장"
+    },
+    {
+     "name": "WB Group·Savox·Source",
+     "past": "Enforce Tac 2026: 무인체계, 전술 헤드셋 Noise-COM 200×2, 여성용 방탄·초경량 헬멧",
+     "expect": "개인 장비 세분화"
+    }
+   ]
+  },
+  {
+   "id": "iwa28",
+   "name": "IWA OutdoorClassics 2028",
+   "ko": "독일 수렵·사격·민수 총기 전시회",
+   "start": "2028-03-02",
+   "end": "2028-03-05",
+   "status": "est",
+   "city": "뉘른베르크",
+   "country": "독일",
+   "region": "유럽",
+   "venue": "Exhibition Centre Nuremberg",
+   "cycle": "매년",
+   "domains": [
+    "총기·사격"
+   ],
+   "scale": "참관 2만여 명",
+   "url": "https://www.iwa.info",
+   "firms": [
+    "Beretta",
+    "Blaser",
+    "Zeiss",
+    "Swarovski Optik",
+    "RUAG Ammotec"
+   ],
+   "kr": [
+    "국내 광학·탄약 부품 기업 소수"
+   ],
+   "trends": [
+    {
+     "t": "small",
+     "d": "디지털 광학·탄도 연동."
+    },
+    {
+     "t": "ammo",
+     "d": "환경규제 대응 탄약."
+    }
+   ],
+   "intel": [
+    "EU 총기 규제"
+   ],
+   "note": "일정 미발표 — Enforce Tac 직후 개최 패턴으로 추정."
+  },
+  {
+   "id": "secpol28",
+   "name": "Security & Policing 2028",
+   "ko": "영국 내무부 주관 치안·안보 전시회",
+   "start": "2028-03-14",
+   "end": "2028-03-16",
+   "status": "est",
+   "city": "판버러",
+   "country": "영국",
+   "region": "유럽",
+   "venue": "Farnborough International Exhibition & Conference Centre",
+   "cycle": "매년",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "정부 승인 인원만 입장",
+   "url": "https://www.securityandpolicing.co.uk",
+   "firms": [
+    "Smiths Detection",
+    "Chemring",
+    "QinetiQ",
+    "Motorola Solutions"
+   ],
+   "kr": [
+    "대표단 참관 사례"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "대테러·국경 정부 수요."
+    },
+    {
+     "t": "cuas",
+     "d": "드론 침투 대응."
+    }
+   ],
+   "intel": [
+    "영국 내무부 수요 과제"
+   ],
+   "note": "일정 미발표 — 예년 3월 둘째·셋째 주 화~목 패턴으로 추정."
+  },
+  {
+   "id": "dimdex28",
+   "name": "DIMDEX 2028",
+   "ko": "도하 국제 해양방산 전시회",
+   "start": "2028-03-27",
+   "end": "2028-03-30",
+   "status": "tent",
+   "city": "도하",
+   "country": "카타르",
+   "region": "중동",
+   "venue": "Qatar National Convention Centre",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "해양"
+   ],
+   "scale": "직전 회차 전시업체 200–400곳",
+   "url": "https://www.dimdex.com",
+   "firms": [
+    "Fincantieri",
+    "Naval Group",
+    "BAE Systems",
+    "Barzan Holdings",
+    "Leonardo",
+    "MBDA"
+   ],
+   "kr": [
+    "한화오션",
+    "HD현대중공업"
+   ],
+   "trends": [
+    {
+     "t": "ship",
+     "d": "걸프 해군 함정 사업과 해안경비 함정 수요."
+    },
+    {
+     "t": "uxv",
+     "d": "호르무즈 해역 감시용 무인체계."
+    },
+    {
+     "t": "iamd",
+     "d": "함정 방공·대함미사일 방어."
+    }
+   ],
+   "intel": [
+    "카타르 해군 차기 함정 사업",
+    "걸프 해양안보 협력 구상",
+    "Barzan 등 현지 파트너 조건"
+   ],
+   "firmDetails": [
+    {
+     "name": "Barzan Holdings",
+     "past": "DIMDEX 2026: 무인수상정 공개",
+     "expect": "카타르 해양 국산화"
+    },
+    {
+     "name": "Barzan Kongsberg(BKS)·BAE Systems",
+     "past": "DIMDEX 2026 참가",
+     "expect": "해양 방공"
+    }
+   ]
+  },
+  {
+   "id": "sas28",
+   "name": "Sea-Air-Space 2028",
+   "ko": "미 해군연맹 해양 전시회",
+   "start": "2028-04-02",
+   "end": "2028-04-05",
+   "status": "tent",
+   "city": "내셔널하버(워싱턴 D.C. 인근)",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Gaylord National Resort & Convention Center",
+   "cycle": "매년",
+   "domains": [
+    "해양"
+   ],
+   "scale": "참관 1만 5천–1만 8천 명",
+   "url": "https://seaairspace.org",
+   "firms": [
+    "General Dynamics",
+    "HII",
+    "Lockheed Martin",
+    "Northrop Grumman",
+    "RTX",
+    "Austal USA",
+    "Saronic",
+    "Anduril"
+   ],
+   "kr": [
+    "HD현대중공업",
+    "한화오션(필리조선소)"
+   ],
+   "trends": [
+    {
+     "t": "ship",
+     "d": "미 해군 함정 건조·MRO 역량 부족에 대응한 동맹국 조선소 협력 논의가 이어질 전망."
+    },
+    {
+     "t": "uxv",
+     "d": "중대형 무인수상정(MUSV)·소형 자율 수상정 대량 배치 구상과 생산 파트너 모집."
+    },
+    {
+     "t": "iamd",
+     "d": "함정 방공 강화, SM 계열 미사일 증산과 저비용 요격 수단."
+    },
+    {
+     "t": "dew",
+     "d": "함정 탑재 레이저·고출력 마이크로파의 실전 배치 일정."
+    }
+   ],
+   "intel": [
+    "해군·해병대·해안경비대 수뇌부의 조선·MRO 수요 발표",
+    "미 해군 함정 MRO 해외 조선소 참여 조건",
+    "무인정 대량 조달 사업 일정",
+    "해군 연구청(ONR) 기술 공모 분야"
+   ],
+   "note": "4/2–5와 4/3–5로 출처가 갈립니다.",
+   "firmDetails": [
+    {
+     "name": "한화(오션·에어로·시스템)",
+     "past": "Sea-Air-Space 2026: 한국 업체 중 유일 단독 대형 부스, 노스롭그루먼과 고체 1단 로켓 공동개발 합의",
+     "expect": "미 해군 MRO·함정 건조",
+     "kr": true
+    },
+    {
+     "name": "HD현대중공업·LIG D&A",
+     "past": "Sea-Air-Space 2026: 공동 부스 운영",
+     "expect": "미 함정 협력",
+     "kr": true
+    }
+   ]
+  },
+  {
+   "id": "fidae28",
+   "name": "FIDAE 2028",
+   "ko": "칠레 국제 항공우주 전시회",
+   "start": "2028-04-04",
+   "end": "2028-04-09",
+   "status": "est",
+   "approx": "2028년 4월 초",
+   "city": "산티아고",
+   "country": "칠레",
+   "region": "미주",
+   "venue": "Pudahuel 공군기지",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "항공우주"
+   ],
+   "scale": "중남미 최대 항공우주 전시회",
+   "url": "https://www.fidae.cl",
+   "firms": [
+    "ENAER",
+    "Embraer",
+    "Lockheed Martin",
+    "Airbus",
+    "Saab",
+    "Boeing"
+   ],
+   "kr": [
+    "KAI"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "중남미 공군의 훈련기·경전투기 교체 수요(FA-50 마케팅 기회)."
+    },
+    {
+     "t": "space",
+     "d": "칠레 국가위성체계 확장."
+    },
+    {
+     "t": "mumt",
+     "d": "국경·해양 감시 무인기."
+    }
+   ],
+   "intel": [
+    "중남미 공군 사업 일정",
+    "칠레·페루·콜롬비아 대표단 접촉",
+    "현지 MRO 협력 조건"
+   ],
+   "note": "출처에 따라 4/3–8, 4/4–9로 다릅니다. 짝수년 4월 초 개최 패턴 기준 추정입니다."
+  },
+  {
+   "id": "laadsec28",
+   "name": "LAAD Security & Milipol Brazil 2028",
+   "ko": "브라질 치안·국토안보 전시회",
+   "start": "2028-04-04",
+   "end": "2028-04-06",
+   "status": "tent",
+   "city": "상파울루",
+   "country": "브라질",
+   "region": "미주",
+   "venue": "상파울루(장소 재확인)",
+   "cycle": "격년",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "남미 최대 치안 전시회",
+   "url": "https://www.laadsecurity.com.br",
+   "firms": [
+    "Taurus",
+    "CBC",
+    "Condor Non-Lethal",
+    "Motorola Solutions",
+    "Embraer"
+   ],
+   "kr": [
+    "참가 이력 제한적"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "브라질 주(州) 경찰 장비·차량 현대화."
+    },
+    {
+     "t": "small",
+     "d": "Taurus·CBC 등 현지 소화기·탄약."
+    },
+    {
+     "t": "border",
+     "d": "아마존 국경 감시."
+    }
+   ],
+   "intel": [
+    "남미 치안 장비 시장 진입 요건"
+   ],
+   "note": "Milipol 네트워크 공식 페이지 기준 일정."
+  },
+  {
+   "id": "mtx28",
+   "name": "MTX (Milipol TechX) 2028",
+   "ko": "싱가포르 국토안보·치안 기술 전시회",
+   "start": "2028-04-05",
+   "end": "2028-04-07",
+   "status": "tent",
+   "city": "싱가포르",
+   "country": "싱가포르",
+   "region": "아시아·태평양",
+   "venue": "Sands Expo & Convention Centre",
+   "cycle": "격년(짝수년)",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "참가 350여 개사·참관 2만여 명",
+   "url": "https://www.milipol.com",
+   "firms": [
+    "ST Engineering",
+    "Thales",
+    "Idemia",
+    "Motorola Solutions",
+    "Hikvision 경쟁사"
+   ],
+   "kr": [
+    "국내 보안기업 참가 이력"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "싱가포르 HTX 주도 치안 기술(로봇 순찰 등)."
+    },
+    {
+     "t": "ai",
+     "d": "영상 분석·스마트 치안."
+    },
+    {
+     "t": "border",
+     "d": "자동 출입국·검색."
+    }
+   ],
+   "intel": [
+    "싱가포르 HTX 공동개발 과제",
+    "아세안 치안 시장"
+   ],
+   "note": "옛 Milipol Asia-Pacific. 2028년 일정은 일부 자료 기준."
+  },
+  {
+   "id": "dsa28",
+   "name": "DSA & NATSEC Asia 2028",
+   "ko": "말레이시아 국방·국가안보 전시회",
+   "start": "2028-04-17",
+   "end": "2028-04-20",
+   "status": "ok",
+   "city": "쿠알라룸푸르",
+   "country": "말레이시아",
+   "region": "아시아·태평양",
+   "venue": "MITEC",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "종합(3군)",
+    "보안·경찰"
+   ],
+   "scale": "아세안 최대급 3군 방산 전시회",
+   "url": "https://www.dsaexhibition.com",
+   "firms": [
+    "Boustead",
+    "DefTech",
+    "Rheinmetall",
+    "Thales",
+    "Aselsan",
+    "Saab"
+   ],
+   "kr": [
+    "KAI(참가 확정)",
+    "한화",
+    "현대로템"
+   ],
+   "trends": [
+    {
+     "t": "land",
+     "d": "말레이시아 육군 장갑차·자주포 현대화."
+    },
+    {
+     "t": "cuas",
+     "d": "국경·해상 감시용 무인기와 대드론."
+    },
+    {
+     "t": "cyber",
+     "d": "NATSEC 병행 전시의 국가안보·치안 솔루션."
+    },
+    {
+     "t": "local",
+     "d": "현지 산업참여(ICP) 요건."
+    }
+   ],
+   "intel": [
+    "말레이시아 국방 백서 후속 획득 사업",
+    "아세안 각국 대표단 수요",
+    "현지 파트너 후보 기업"
+   ]
+  },
+  {
+   "id": "sofweek28",
+   "name": "SOF Week 2028",
+   "ko": "미국 특수작전부대 컨퍼런스·전시회",
+   "start": "2028-05-08",
+   "end": "2028-05-11",
+   "status": "tent",
+   "city": "탬파",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Tampa Convention Center 일대",
+   "cycle": "매년",
+   "domains": [
+    "특수작전"
+   ],
+   "scale": "참관 1만 8천여 명",
+   "url": "https://sofweek.org",
+   "firms": [
+    "L3Harris",
+    "Sierra Nevada",
+    "SIG Sauer",
+    "Teledyne FLIR",
+    "Anduril"
+   ],
+   "kr": [
+    "국내 기업 참가 소수"
+   ],
+   "trends": [
+    {
+     "t": "sof",
+     "d": "특수전 통신·경량 무장."
+    },
+    {
+     "t": "cuas",
+     "d": "분대급 대드론."
+    },
+    {
+     "t": "ai",
+     "d": "엣지 AI."
+    }
+   ],
+   "intel": [
+    "USSOCOM 획득 동향"
+   ],
+   "note": "5/8~12 일정(행사 전체) 기준, 전시 기간은 공식 발표 확인.",
+   "firmDetails": [
+    {
+     "name": "Teledyne FLIR",
+     "past": "SOF Week 2026: 무인 신제품 2종, 배회탄 Rogue 1 Block 2(사거리 20km+) 공개",
+     "expect": "USSOCOM 정밀타격 사업"
+    },
+    {
+     "name": "AV(AeroVironment)",
+     "past": "SOF Week 2026: 전기추진 고정익 Switchblade SB 400 전시",
+     "expect": "소부대 배회탄"
+    },
+    {
+     "name": "AEVEX",
+     "past": "SOF Week 2026: 무인수상정 Mako Lite 해상 시연, 3D 프린팅 ForgeX",
+     "expect": "현장 적층제조"
+    },
+    {
+     "name": "B.E. Meyers·Vuzix",
+     "past": "SOF Week 2026: 근적외선 레이저 VSLAP-V1, 40° 시야 도파관 HMD",
+     "expect": "야간 표적지시·증강현실"
+    },
+    {
+     "name": "FirstSpear·UF PRO·Wing Group",
+     "past": "SOF Week 2026: 해상·항공 방탄 조끼, 군견 장비, 생존 장비",
+     "expect": "개인 장비"
+    }
+   ]
+  },
+  {
+   "id": "gpec28",
+   "name": "GPEC 2028",
+   "ko": "독일 경찰장비 전시회·컨퍼런스",
+   "start": "2028-05-09",
+   "end": "2028-05-11",
+   "status": "tent",
+   "city": "라이프치히",
+   "country": "독일",
+   "region": "유럽",
+   "venue": "Leipziger Messe",
+   "cycle": "격년(짝수년)",
+   "domains": [
+    "보안·경찰",
+    "특수작전"
+   ],
+   "scale": "참가 470여 개사·참관 7천여 명(2024)",
+   "url": "https://www.gpec.de",
+   "firms": [
+    "Heckler & Koch",
+    "Rheinmetall",
+    "Rohde & Schwarz",
+    "Mercedes-Benz Special Vehicles",
+    "Dräger"
+   ],
+   "kr": [
+    "참가 이력 제한적"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "경찰 특공대(SEK) 장비·특수차량."
+    },
+    {
+     "t": "soldier",
+     "d": "경찰 방호 장비."
+    },
+    {
+     "t": "cuas",
+     "d": "치안 대드론."
+    }
+   ],
+   "intel": [
+    "독일 경찰 장비 조달 체계",
+    "유럽 경찰 표준 장비"
+   ],
+   "note": "관청 소속만 입장 가능한 폐쇄형 행사."
+  },
+  {
+   "id": "ila28",
+   "name": "ILA Berlin 2028",
+   "ko": "베를린 국제 항공우주 전시회",
+   "start": "2028-05-17",
+   "end": "2028-05-21",
+   "status": "ok",
+   "city": "베를린",
+   "country": "독일",
+   "region": "유럽",
+   "venue": "Berlin ExpoCenter Airport",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "항공우주"
+   ],
+   "scale": "2026년 37개국 765곳",
+   "url": "https://www.ila-berlin.de",
+   "firms": [
+    "Airbus",
+    "Rheinmetall",
+    "Hensoldt",
+    "Diehl Defence",
+    "MBDA Deutschland",
+    "Lockheed Martin",
+    "Helsing",
+    "Quantum Systems"
+   ],
+   "kr": [
+    "국내 일부 항공우주 기업"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "독일 F-35 도입, FCAS 진로, 유로파이터 추가 도입."
+    },
+    {
+     "t": "iamd",
+     "d": "유럽 스카이실드(ESSI) 방공망 구축."
+    },
+    {
+     "t": "ai",
+     "d": "Helsing 등 독일 방산 AI 스타트업의 무인기·전장 AI."
+    },
+    {
+     "t": "space",
+     "d": "독일 군 위성군 투자 확대."
+    }
+   ],
+   "intel": [
+    "독일 국방예산 증액분 집행 계획",
+    "독일 연방군 조달청(BAAINBw) 사업",
+    "유럽 방산 스타트업 생태계 동향",
+    "무역일(17–19일) 비즈니스 매칭"
+   ]
+  },
+  {
+   "id": "eurosatory28",
+   "name": "Eurosatory 2028",
+   "ko": "파리 국제 지상·공지 방산 전시회",
+   "start": "2028-06-19",
+   "end": "2028-06-23",
+   "status": "tent",
+   "city": "파리",
+   "country": "프랑스",
+   "region": "유럽",
+   "venue": "Paris Nord Villepinte",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "지상",
+    "종합(3군)",
+    "특수작전"
+   ],
+   "scale": "전시업체 2,600여 곳, 관람객 6만여 명",
+   "url": "https://www.eurosatory.com",
+   "firms": [
+    "KNDS",
+    "Rheinmetall",
+    "MBDA",
+    "Thales",
+    "Safran",
+    "Arquus",
+    "Elbit Systems",
+    "CSG"
+   ],
+   "kr": [
+    "한화에어로스페이스",
+    "현대로템",
+    "LIG넥스원",
+    "풍산",
+    "SNT다이내믹스",
+    "기아"
+   ],
+   "trends": [
+    {
+     "t": "land",
+     "d": "유럽 차세대 전차(MGCS) 개념과 기존 전차 개량 경쟁."
+    },
+    {
+     "t": "cuas",
+     "d": "드론 장벽(Drone Wall) 등 유럽 대드론 방어망."
+    },
+    {
+     "t": "ammo",
+     "d": "유럽 탄약 증산 투자와 신규 공장."
+    },
+    {
+     "t": "fires",
+     "d": "유럽 장거리 타격 구상(ELSA)과 다연장 로켓 경쟁."
+    },
+    {
+     "t": "ai",
+     "d": "전장 AI·자율 지상차량."
+    }
+   ],
+   "intel": [
+    "유럽 공동조달(EDIP·SAFE) 대상 사업",
+    "프랑스·독일 지상장비 사업 일정",
+    "유럽 내 생산 요건(Buy European) 범위",
+    "동유럽·북유럽 구매 대표단"
+   ],
+   "firmDetails": [
+    {
+     "name": "KNDS",
+     "past": "Eurosatory 2026: 신형 전차 CAPINT 첫 공개, 초장거리 포병 LORAS(Boxer 궤도형 탑재), 배회형탄약 MATARIS 계열 확장",
+     "expect": "유럽 차세대 전차 경쟁 구도"
+    },
+    {
+     "name": "Rheinmetall·Leonardo(LRMV)",
+     "past": "Eurosatory 2026: 이탈리아 육군용 신형 전차(NMBT) 목업, Caracal 6×6 공개",
+     "expect": "이탈리아 전차·장갑차 사업 계약"
+    },
+    {
+     "name": "현대로템",
+     "past": "Eurosatory 2026: AI 기반 무인포탑 다층 대드론 체계 세계 첫 공개, K2 전차·HR-SHERPA 무인차량",
+     "expect": "K2PL 현지 생산 착수, 유무인복합",
+     "kr": true
+    },
+    {
+     "name": "Thales",
+     "past": "Eurosatory 2026: 이동형 대드론 RapidStriker 공개, 르노와 4 TROOP 차량 개념",
+     "expect": "대드론 표준화"
+    },
+    {
+     "name": "FNSS·CSG",
+     "past": "Eurosatory 2026: CFL-120 Karpat 전차",
+     "expect": "중량급 전차 대안"
+    }
+   ]
+  },
+  {
+   "id": "fia28",
+   "name": "Farnborough Airshow 2028",
+   "ko": "영국 판버러 에어쇼",
+   "start": "2028-07-17",
+   "end": "2028-07-21",
+   "status": "ok",
+   "city": "판버러",
+   "country": "영국",
+   "region": "유럽",
+   "venue": "Farnborough International Exhibition & Conference Centre",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "항공우주"
+   ],
+   "scale": "전시업체 1,500여 곳",
+   "url": "https://www.farnboroughairshow.com",
+   "firms": [
+    "BAE Systems",
+    "Rolls-Royce",
+    "Boeing",
+    "Airbus",
+    "Lockheed Martin",
+    "Leonardo",
+    "GE Aerospace"
+   ],
+   "kr": [
+    "KAI",
+    "한화에어로스페이스",
+    "대한항공"
+   ],
+   "trends": [
+    {
+     "t": "air",
+     "d": "GCAP 시제기 개발 일정과 차세대 엔진."
+    },
+    {
+     "t": "mumt",
+     "d": "영국 공군 무인 협동기 개념."
+    },
+    {
+     "t": "space",
+     "d": "영국 우주사령부 위성 사업."
+    },
+    {
+     "t": "ai",
+     "d": "항공기 생산 디지털화·자동화."
+    }
+   ],
+   "intel": [
+    "대형 항공기 주문 발표",
+    "GCAP 국제 협력 확대 논의",
+    "항공 부품 공급망 파트너 모집",
+    "영국 공군 현대화 예산"
+   ],
+   "firmDetails": [
+    {
+     "name": "BAE Systems",
+     "past": "판버러 2026: 영국 첫 무인 CCA Brontanax 공개, 록히드와 재머 Blizzard",
+     "expect": "GCAP 연계 무인기"
+    },
+    {
+     "name": "Anduril",
+     "past": "판버러 2026: 아처와 무인 틸트로터 Thunder 공개, 엠브라에르 C-390 순항미사일 발사 협력",
+     "expect": "회전익 유무인 협업"
+    },
+    {
+     "name": "KAI",
+     "past": "판버러 2026: 유인·무인 하이브리드 편대 비전",
+     "expect": "KF-21 블록 업그레이드",
+     "kr": true
+    },
+    {
+     "name": "MBDA",
+     "past": "판버러 2026: 단거리 방공용 저가 요격미사일 출시",
+     "expect": "대드론 비용 대응"
+    },
+    {
+     "name": "Leonardo",
+     "past": "판버러 2026: 무인 헬기 Proteus",
+     "expect": "GCAP 독일 참여 논의"
+    }
+   ]
+  },
+  {
+   "id": "mspo28",
+   "name": "MSPO 2028",
+   "ko": "폴란드 국제 방산 전시회",
+   "start": "2028-09-05",
+   "end": "2028-09-08",
+   "status": "est",
+   "approx": "2028년 9월 초",
+   "city": "키엘체",
+   "country": "폴란드",
+   "region": "유럽",
+   "venue": "Targi Kielce",
+   "cycle": "매년",
+   "domains": [
+    "지상",
+    "종합(3군)"
+   ],
+   "scale": "유럽 3위권 방산 전시회",
+   "url": "https://www.targikielce.pl/en/mspo",
+   "firms": [
+    "PGZ(폴란드 군비그룹)",
+    "Huta Stalowa Wola",
+    "WB Group",
+    "Rheinmetall",
+    "KNDS",
+    "Lockheed Martin",
+    "RTX",
+    "Saab"
+   ],
+   "kr": [
+    "한화에어로스페이스",
+    "현대로템",
+    "LIG넥스원"
+   ],
+   "trends": [
+    {
+     "t": "local",
+     "d": "K2·K9·천무 2차 이행계약과 연계된 폴란드 현지생산·기술이전 범위가 최대 관심사."
+    },
+    {
+     "t": "cuas",
+     "d": "동부 국경 방어 구상과 연계한 드론 탐지·요격망 수요."
+    },
+    {
+     "t": "iamd",
+     "d": "Wisła·Narew 방공 체계 확장과 단거리 방공 보강."
+    },
+    {
+     "t": "ammo",
+     "d": "유럽 탄약 생산 확대(ASAP·SAFE 재원)와 폴란드 내 탄약공장 투자."
+    },
+    {
+     "t": "land",
+     "d": "보병전투차량·궤도형 플랫폼 국산화 경쟁."
+    }
+   ],
+   "intel": [
+    "폴란드 국방부 무기획득청(AU) 차년도 사업 목록",
+    "현지 협력업체(PGZ 계열)와의 부품 공급 기회",
+    "EU SAFE 대출 재원의 사용 조건과 비EU 업체 참여 범위",
+    "동유럽(발트·루마니아) 대표단 접촉"
+   ],
+   "note": "매년 8월 말~9월 초 개최 패턴 기준 추정입니다.",
+   "firmDetails": [
+    {
+     "name": "현대로템",
+     "past": "MSPO 2025: K2PL 실물(능동방호·대드론 재머), HR-SHERPA 양산형, 라파엘과 트로피 APS 통합 합의",
+     "expect": "K2PL 폴란드 현지 생산 진척",
+     "kr": true
+    },
+    {
+     "name": "한화에어로스페이스·한화시스템·한화오션",
+     "past": "MSPO 2025: WB그룹과 천무 유도탄(CGR-080) 합작 법인 계약, K9·K10, 차량 능동방호체계 첫 공개(PCO와 현지화), KSS-III 잠수함",
+     "expect": "오르카 잠수함 사업, 유도탄 현지 생산",
+     "kr": true
+    },
+    {
+     "name": "WB Group",
+     "past": "MSPO 2025: 최대 전시관, 무인전투정 Stormrider",
+     "expect": "배회형탄약·무인체계 수출"
+    },
+    {
+     "name": "현대위아·SNT다이내믹스·SNT모티브",
+     "past": "MSPO 2025: 105mm 자주포, SNT 첫 대형 공동 전시(소화기·파워트레인)",
+     "expect": "폴란드 부품 협력",
+     "kr": true
+    },
+    {
+     "name": "PGZ(폴란드 국영)",
+     "past": "MSPO 2025: Rosomak-L, Bluszcz 지뢰부설차",
+     "expect": "현지화 요구 수준"
+    }
+   ]
+  },
+  {
+   "id": "landforces28",
+   "name": "Land Forces 2028",
+   "ko": "호주 국제 지상방산 전시회",
+   "start": "2028-09-12",
+   "end": "2028-09-14",
+   "status": "est",
+   "approx": "2028년 9~10월",
+   "city": "멜버른",
+   "country": "호주",
+   "region": "아시아·태평양",
+   "venue": "Melbourne Convention and Exhibition Centre",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "지상"
+   ],
+   "scale": "직전 회차 25개국 800여 곳(2022 기준)",
+   "url": "https://www.landforces.com.au",
+   "firms": [
+    "Hanwha Defense Australia",
+    "Rheinmetall Defence Australia",
+    "Thales Australia",
+    "BAE Systems Australia",
+    "EOS"
+   ],
+   "kr": [
+    "한화(AS9 헌츠맨, 레드백)"
+   ],
+   "trends": [
+    {
+     "t": "land",
+     "d": "레드백 보병전투차량·AS9 자주포 양산과 후속 사업."
+    },
+    {
+     "t": "fires",
+     "d": "호주 육군 장거리 타격(PrSM·HIMARS) 현지 생산."
+    },
+    {
+     "t": "cuas",
+     "d": "육군 대드론 사업."
+    },
+    {
+     "t": "local",
+     "d": "질롱 H-ACE 기반 공급망 확대."
+    }
+   ],
+   "intel": [
+    "호주 육군 사업 우선순위",
+    "질롱 공장 연계 협력사 기회",
+    "호주 육군 장비 수출 연계"
+   ],
+   "note": "멜버른 개최 확정, 날짜 미발표. 2030년 회차는 브리즈번으로 이동 예정입니다.",
+   "firmDetails": [
+    {
+     "name": "한화(Hanwha Defense Australia)",
+     "past": "Land Forces 2026(퍼스): Redback·AS9 헌츠맨, 밀렘 로보틱스와 UGV 협력",
+     "expect": "LAND 400 Phase 3 납품",
+     "kr": true
+    },
+    {
+     "name": "Rheinmetall Defence Australia",
+     "past": "Land Forces 2026: Boxer 호주·독일형 동시 생산, Praetorian과 대드론",
+     "expect": "Boxer 수출"
+    },
+    {
+     "name": "SYPAQ·L3Harris",
+     "past": "Land Forces 2026: Corvo Vipera, 부시마스터 C2",
+     "expect": "호주 중소기업"
+    }
+   ]
+  },
+  {
+   "id": "aad28",
+   "name": "AAD 2028",
+   "ko": "아프리카 항공우주·방산 전시회",
+   "start": "2028-09-27",
+   "end": "2028-10-01",
+   "status": "est",
+   "approx": "2028년 9월 말",
+   "city": "프리토리아",
+   "country": "남아공",
+   "region": "아프리카",
+   "venue": "Waterkloof 공군기지",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "종합(3군)",
+    "항공우주"
+   ],
+   "scale": "아프리카 유일 방산 전시·에어쇼",
+   "url": "https://www.aadexpo.co.za",
+   "firms": [
+    "Denel",
+    "Paramount Group",
+    "Saab Grintek",
+    "Milkor",
+    "Rheinmetall Denel Munition",
+    "Armscor"
+   ],
+   "kr": [
+    "국내 참가 소수"
+   ],
+   "trends": [
+    {
+     "t": "ammo",
+     "d": "Rheinmetall Denel Munition 등 탄약 생산 거점 역할."
+    },
+    {
+     "t": "land",
+     "d": "아프리카 지형용 차륜형 장갑차·지뢰방호 차량."
+    },
+    {
+     "t": "mumt",
+     "d": "Milkor 등 현지 무인기 개발."
+    }
+   ],
+   "intel": [
+    "아프리카 국가 대표단 수요",
+    "남아공 방산 수출 동향",
+    "탄약·부품 공급망 협력"
+   ],
+   "note": "공식 날짜 미발표. 일부 전시 정보 사이트 기준입니다."
+  },
+  {
+   "id": "ausa28",
+   "name": "AUSA 2028",
+   "ko": "미 육군협회 연례회의·전시회",
+   "start": "2028-10-09",
+   "end": "2028-10-11",
+   "status": "ok",
+   "city": "워싱턴 D.C.",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Walter E. Washington Convention Center",
+   "cycle": "매년",
+   "domains": [
+    "지상"
+   ],
+   "scale": "참관 4만여 명, 전시 750여 곳",
+   "url": "https://www.ausa.org",
+   "firms": [
+    "General Dynamics Land Systems",
+    "Lockheed Martin",
+    "RTX",
+    "Oshkosh Defense",
+    "BAE Systems",
+    "Anduril",
+    "Palantir",
+    "AeroVironment"
+   ],
+   "kr": [
+    "한화(미국 법인)",
+    "현대로템"
+   ],
+   "trends": [
+    {
+     "t": "cuas",
+     "d": "소부대 단위 대드론 체계, 요격 드론·전자적 무력화 장비가 전시장 핵심이 될 가능성이 큼."
+    },
+    {
+     "t": "ai",
+     "d": "미 육군 변혁 이니셔티브 기조에 따라 전술 데이터망·AI 표적처리(센서-슈터 단축) 시연."
+    },
+    {
+     "t": "land",
+     "d": "차세대 장갑차·경전차 개념, 무인 지상차량(UGV)과 로봇 전투차량 실증 결과."
+    },
+    {
+     "t": "fires",
+     "d": "자주포·다연장 사거리 연장, PrSM 등 정밀타격 탄의 생산 확대 계획."
+    },
+    {
+     "t": "ammo",
+     "d": "155mm 탄 생산 증설과 신규 공급사 진입 기회."
+    }
+   ],
+   "intel": [
+    "미 육군 현대화 우선순위와 예산 요구 방향(육군참모총장·장관 기조연설)",
+    "신속획득(OTA) 경로로 진입할 수 있는 사업 공고",
+    "미국 내 생산(Buy American) 요건과 현지 파트너 조건",
+    "전차·자주포 차기 사업의 요구성능 초안"
+   ],
+   "firmDetails": [
+    {
+     "name": "한화(Hanwha Defense USA)",
+     "past": "AUSA 2025: K9A1 실물, 차륜형 K9A2(8×8 트럭) 미국 시장 공개, GA-ASI와 그레이이글 STOL 공동개발·생산 합의",
+     "expect": "차륜형 K9 미 육군 시험 결과, 장약 미국 현지화",
+     "kr": true
+    },
+    {
+     "name": "General Dynamics Land Systems",
+     "past": "AUSA 2025: 대드론 MUTT XM 로봇차량, 에이브럼스 탑재 배회형탄약(PERCH), Epirus 레오니다스 고출력 극초단파 탑재",
+     "expect": "전차·장갑차 대드론 통합"
+    },
+    {
+     "name": "Anduril",
+     "past": "AUSA 2025: Lattice 연동 레이더를 판두르 차량에 탑재, EagleEye 헬멧형 지휘장비",
+     "expect": "소부대 C2·대드론 확산"
+    },
+    {
+     "name": "American Rheinmetall",
+     "past": "AUSA 2025: ISV-C 차량 탑재 Skyranger 762 방공",
+     "expect": "기동 단거리 방공"
+    },
+    {
+     "name": "Saab·Boeing",
+     "past": "AUSA 2025: 지상발사 소직경폭탄(GL-SDB)",
+     "expect": "장거리 정밀화력 대안"
+    }
+   ]
+  },
+  {
+   "id": "iacp28",
+   "name": "IACP 2028",
+   "ko": "국제경찰청장협회 연차 총회·전시회",
+   "start": "2028-10-21",
+   "end": "2028-10-24",
+   "status": "tent",
+   "city": "올랜도",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Orange County Convention Center",
+   "cycle": "매년",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "참관 1만 6천여 명",
+   "url": "https://www.theiacpconference.org",
+   "firms": [
+    "Axon",
+    "Motorola Solutions",
+    "Flock Safety"
+   ],
+   "kr": [
+    "경찰청 대표단 참석 사례"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "실시간 범죄센터·바디캠."
+    },
+    {
+     "t": "ai",
+     "d": "치안 AI 거버넌스."
+    }
+   ],
+   "intel": [
+    "미국 경찰 기술 동향"
+   ]
+  },
+  {
+   "id": "sofex28",
+   "name": "SOFEX Jordan 2028",
+   "ko": "요르단 특수작전부대 전시회",
+   "start": "2028-10-30",
+   "end": "2028-11-02",
+   "status": "est",
+   "city": "아카바",
+   "country": "요르단",
+   "region": "중동",
+   "venue": "Aqaba International Exhibition & Convention Centre",
+   "cycle": "격년(짝수년)",
+   "domains": [
+    "특수작전"
+   ],
+   "scale": "참가 400여 개사",
+   "url": "https://sofexjordan.com",
+   "firms": [
+    "EDGE Group",
+    "Jordan Design & Development Bureau",
+    "Rheinmetall",
+    "Elbit Systems"
+   ],
+   "kr": [
+    "참가 이력 제한적"
+   ],
+   "trends": [
+    {
+     "t": "sof",
+     "d": "중동 특수부대 장비·실기동 시연."
+    },
+    {
+     "t": "cuas",
+     "d": "대드론."
+    },
+    {
+     "t": "land",
+     "d": "특수작전 차량."
+    }
+   ],
+   "intel": [
+    "중동 특수작전 사령관 회의(MESOC) 논의"
+   ],
+   "note": "일정 미발표 — 2026년(10/26~29) 패턴으로 추정. 아카바 이동은 암만 경유.",
+   "firmDetails": [
+    {
+     "name": "JODDB(요르단 설계개발국)",
+     "past": "SOFEX 2026: 주최 측 기술 솔루션 전시, EDGE와 MOU",
+     "expect": "요르단 현지 협력"
+    },
+    {
+     "name": "EDGE Group",
+     "past": "SOFEX 2026: 자율 체계·전자전·사이버·정밀타격 전시",
+     "expect": "중동 특수전"
+    },
+    {
+     "name": "Multi Level Group 등 UAE관",
+     "past": "SOFEX 2026: UAE 국가관 참가",
+     "expect": "UAE 협력"
+    }
+   ]
+  },
+  {
+   "id": "milipolqatar28",
+   "name": "Milipol Qatar 2028",
+   "ko": "카타르 국토안보·민방위 전시회",
+   "start": "2028-10-31",
+   "end": "2028-11-02",
+   "status": "tent",
+   "city": "도하",
+   "country": "카타르",
+   "region": "중동",
+   "venue": "Doha Exhibition and Convention Center",
+   "cycle": "격년(짝수년)",
+   "domains": [
+    "보안·경찰"
+   ],
+   "scale": "참가 250여 개사",
+   "url": "https://www.milipolqatar.com",
+   "firms": [
+    "Barzan Holdings",
+    "Thales",
+    "Airbus",
+    "Motorola Solutions",
+    "EDGE Group"
+   ],
+   "kr": [
+    "국내 기업 참가 사례"
+   ],
+   "trends": [
+    {
+     "t": "police",
+     "d": "걸프 지역 치안·민방위 통합."
+    },
+    {
+     "t": "cuas",
+     "d": "대형행사 대드론."
+    },
+    {
+     "t": "border",
+     "d": "국경 감시."
+    }
+   ],
+   "intel": [
+    "카타르 내무부 조달 동향"
+   ],
+   "firmDetails": [
+    {
+     "name": "Barzan Holdings",
+     "past": "Milipol Qatar 2026: 카타르산 방산 제품 10여 종(무인기·무인수상정) 공개, 우크라이나 Carmine Sky와 다층 방공 합작",
+     "expect": "카타르 국산화"
+    },
+    {
+     "name": "국가관(영·이·독·북미·중·체코·프)",
+     "past": "Milipol Qatar 2026: 7개 국가관 운영",
+     "expect": "국가별 치안 장비"
+    }
+   ]
+  },
+  {
+   "id": "euronaval28",
+   "name": "Euronaval 2028",
+   "ko": "파리 국제 해양방산 전시회",
+   "start": "2028-11-07",
+   "end": "2028-11-10",
+   "status": "est",
+   "approx": "2028년 10~11월",
+   "city": "파리",
+   "country": "프랑스",
+   "region": "유럽",
+   "venue": "Paris Nord Villepinte(예상)",
+   "cycle": "2년(짝수년)",
+   "domains": [
+    "해양"
+   ],
+   "scale": "2026년 전시업체 700곳 이상",
+   "url": "https://www.euronaval.com",
+   "firms": [
+    "Naval Group",
+    "Thales",
+    "MBDA",
+    "Exail",
+    "Chantiers de l'Atlantique",
+    "Fincantieri",
+    "TKMS"
+   ],
+   "kr": [
+    "한화오션",
+    "HD현대중공업"
+   ],
+   "trends": [
+    {
+     "t": "uxv",
+     "d": "유럽 해군의 무인 수상·수중 체계와 드론 모함."
+    },
+    {
+     "t": "ship",
+     "d": "고강도 분쟁 대비 함정 생산 속도와 유럽 조선 협력."
+    },
+    {
+     "t": "space",
+     "d": "우주 기반 해양영역인식."
+    },
+    {
+     "t": "iamd",
+     "d": "함정 방공·대함미사일."
+    }
+   ],
+   "intel": [
+    "유럽 해군 함정 사업 일정",
+    "프랑스 해군 차기 항모·호위함",
+    "유럽 조선소와 협력 가능 분야"
+   ],
+   "note": "공식 날짜 미발표. 2024·2026년 11월 초 개최 패턴 기준 추정입니다.",
+   "firmDetails": [
+    {
+     "name": "ST Engineering",
+     "past": "Euronaval 2026 첫 참가: 다목적 지원함(MRV) 유럽 수출, Babcock MOU",
+     "expect": "유럽 파트너 생산"
+    },
+    {
+     "name": "Aselsan",
+     "past": "Euronaval 2026: 함정 방어·무인 수상·수중체계",
+     "expect": "해양 무인"
+    },
+    {
+     "name": "Naval Group·MBDA",
+     "past": "D&S 2025에서 한화오션 OCEAN-40F에 SETIS·함대함미사일 제공 MOU",
+     "expect": "한·불 함정 협력"
+    }
+   ]
+  },
+  {
+   "id": "iitsec28",
+   "name": "I/ITSEC 2028",
+   "ko": "미국 교육훈련·시뮬레이션 컨퍼런스",
+   "start": "2028-11-27",
+   "end": "2028-12-01",
+   "status": "tent",
+   "city": "올랜도",
+   "country": "미국",
+   "region": "미주",
+   "venue": "Orange County Convention Center",
+   "cycle": "매년",
+   "domains": [
+    "훈련·시뮬레이션"
+   ],
+   "scale": "참관 1만 5천여 명",
+   "url": "https://www.iitsec.org",
+   "firms": [
+    "CAE",
+    "Lockheed Martin",
+    "Boeing",
+    "BAE Systems",
+    "Collins Aerospace",
+    "Bohemia Interactive Simulations",
+    "L3Harris"
+   ],
+   "kr": [
+    "국내 대형사 참가는 제한적"
+   ],
+   "trends": [
+    {
+     "t": "sim",
+     "d": "합성훈련환경(STE)과 클라우드 기반 대규모 분산 시뮬레이션이 주제의 중심에 설 전망."
+    },
+    {
+     "t": "ai",
+     "d": "생성형 AI로 시나리오·적 행동을 자동 생성하는 교관 보조, AI 성과 분석 도구 시연 확대."
+    },
+    {
+     "t": "mumt",
+     "d": "유무인 협업 전술을 사전에 검증하는 디지털트윈·LVC(실기동·가상·구성) 연동."
+    },
+    {
+     "t": "cuas",
+     "d": "드론 위협 대응 훈련용 시뮬레이터와 표적 드론 수요 증가."
+    }
+   ],
+   "intel": [
+    "미 육군·해군·공군 훈련체계 획득 로드맵 발표 세션",
+    "LVC·합성환경 표준(HLA/DIS 후속) 논의 동향",
+    "게임엔진·XR 하드웨어의 군 인증 사례와 단가",
+    "교육훈련 시뮬레이터 국제공동개발·부품 공급 파트너 탐색"
+   ]
+  }
+ ]
+}
