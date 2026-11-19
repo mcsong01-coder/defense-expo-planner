@@ -199,3 +199,6 @@ table.grid.items td:nth-child(4) { min-width: 200px; }
 .chip.kw { display: inline-flex; align-items: center; gap: 2px; background: var(--accent-soft); border-color: var(--accent); color: var(--accent); cursor: default; padding-right: 4px; }
 .chip.kw .x { border: 0; background: none; color: inherit; cursor: pointer; font-size: 14px; line-height: 1; padding: 0 4px; border-radius: 4px; }
 .chip.kw .x:hover { background: var(--accent); color: #fff; }
+
+/* Email sign-in and local-to-account import */
+.auth-controls{display:flex;align-items:center;justify-content:flex-end;gap:6px;flex-wrap:wrap}.auth-form{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.auth-form input{width:190px}.auth-user{max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ok);font-size:12px}.auth-message{flex-basis:100%;text-align:right;font-size:11px;color:var(--ok)}.auth-message.error{color:var(--bad)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.local-import{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}@media(max-width:780px){.auth-controls{width:100%;justify-content:flex-start}.auth-message{text-align:left}}
