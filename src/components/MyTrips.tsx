@@ -5,11 +5,19 @@ import { findExhibition } from '../data/exhibitions';
 import { computeBudget, krw } from '../lib/budget';
 import { fmtDot } from '../lib/dates';
 
-export default function MyTrips({ repo, onOpen, onNew }: { repo: TripRepository; onOpen: (id: string) => void; onNew: () => void }) {
+export default function MyTrips({ repo, onOpen, onNew, localPlanCount, onImportLocal, importMessage }: {
+  repo: TripRepository;
+  onOpen: (id: string) => void;
+  onNew: () => void;
+  localPlanCount: number;
+  onImportLocal: () => void;
+  importMessage: string;
+}) {
   const [list, setList] = useState<TripPlan[] | null>(null);
   const [confirmDel, setConfirmDel] = useState<string | null>(null);
   const load = () => repo.list().then(setList);
   useEffect(() => {
+    setList(null);
     load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [repo]);
@@ -20,7 +28,14 @@ export default function MyTrips({ repo, onOpen, onNew }: { repo: TripRepository;
         <h1 style={{ fontSize: 20 }}>내 출장안</h1>
         <button className="btn primary" onClick={onNew}>전시회 고르러 가기</button>
       </div>
-      <p className="hint">출장안은 {repo.kind === 'supabase' ? 'Supabase 계정' : '이 브라우저'}에 저장됩니다. 이름·소속 외의 개인정보는 받지 않습니다.</p>
+      <p className="hint">출장안은 {repo.kind === 'supabase' ? '로그인한 Supabase 계정에 저장되어 기기 간 동기화됩니다' : '이 브라우저에 저장됩니다'}. 이름·소속 외의 개인정보는 받지 않습니다.</p>
+      {repo.kind === 'supabase' && localPlanCount > 0 && (
+        <div className="note info local-import">
+          <span>이 브라우저에 저장된 출장안 {localPlanCount}개를 계정에 복사할 수 있습니다. 기존 출장안은 삭제되지 않습니다.</span>
+          <button className="btn sm" onClick={onImportLocal}>브라우저 출장안 복사</button>
+        </div>
+      )}
+      {importMessage && <p className="hint" role="status">{importMessage}</p>}
       {list === null && <div className="card empty">불러오는 중…</div>}
       {list?.length === 0 && (
         <div className="card empty">
